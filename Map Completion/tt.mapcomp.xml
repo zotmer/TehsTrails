@@ -33,6 +33,7 @@
 			
 				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest.png" iconSize="0.4"/>
+					<MarkerCategory name="points_of_interest_highlighted" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest_highlighted.png" iconSize="0.6" fadeNear="5500" fadeFar="6000"/>
 					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/MapCompletion/General/Vista.png" iconSize="0.5"/>
 					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/MapCompletion/General/Waypoint.png" iconSize="0.75"/>
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/MapCompletion/General/Finish.png" iconSize="0.75"/>
@@ -889,7 +890,7 @@
 		<POI MapID="20" xpos="-306.742" ypos="11.5145" zpos="-611.34" type="tt.mc.h.chm.start_heart" info="Use flamethrower" infoRange="40.0" GUID="4x0LPzYdHEGjSrEFMGHjVA=="/>
 		<POI MapID="20" xpos="-311.383" ypos="3.2803" zpos="838.269" type="tt.mc.h.chm.kill" GUID="bRcRjz3r9kOhY4dNrdmsuQ=="/>
 		<POI MapID="20" xpos="-321.199" ypos="1.75072" zpos="875.955" type="tt.mc.h.chm.kill" GUID="lw6UFKr0OkiyDaQTcPBVOA=="/>
-		<POI MapID="20" xpos="-403.621" ypos="10.1213" zpos="-852.031" type="tt.mc.h.chm.start_heart" info="Throw shards/weapons at ghosts/branded -> kill them" infoRange="40.0" GUID="BQLpyxPf+UyEOvCI7V9kQg=="/>
+		<POI MapID="20" xpos="-403.621" ypos="10.1213" zpos="-852.031" type="tt.mc.h.chm.start_heart" info="Kill all | Throw shards/weapons at ghosts/branded -> kill them" infoRange="40.0" GUID="BQLpyxPf+UyEOvCI7V9kQg=="/>
 		<POI MapID="20" xpos="-344.424" ypos="1.53315" zpos="261.734" type="tt.mc.cm.mm.springer" GUID="UY0jsJiJ5kqzXPc5itK9Vg=="/>
 		<POI MapID="20" xpos="-358.17" ypos="41.5489" zpos="-30.0334" type="tt.mc.cm.rm.waypoints" GUID="Bd/FCdTqgEqy4+KNKN1nlw=="/>
 		<POI MapID="20" xpos="-378.006" ypos="34.1757" zpos="655.435" type="tt.mc.cm.rm.vistas" GUID="wwcv7+nCjkOBt1VFZf/zYw=="/>
@@ -1837,7 +1838,7 @@
 		<POI MapID="24" xpos="432.254" ypos="1.07996" zpos="260.602" type="tt.mc.h.chm.start_heart" info="Spam Pirate Plans with full inventory" infoRange="40.0" GUID="lhTAHR/WGEuVxdI9Id+Ang=="/>
 		<POI MapID="24" xpos="437.918" ypos="1.06487" zpos="276.598" type="tt.mc.h.hsm.fullinventory" GUID="Vvlti2QV1ES+UnkWQTIyfQ=="/>
 		<POI MapID="24" xpos="438.773" ypos="0.878471" zpos="276.472" type="tt.mc.h.chm.interact" GUID="4XGffkv4e06GsiG11vMsjg=="/>
-		<POI MapID="24" xpos="449.475" ypos="0.431675" zpos="305.289" type="tt.mc.cm.rm.points_of_interest" GUID="5LdOMDW2nUalN8fspVXKeQ=="/>
+		<POI MapID="24" xpos="449.475" ypos="0.431675" zpos="305.289" type="tt.mc.cm.rm.points_of_interest_highlighted" GUID="5LdOMDW2nUalN8fspVXKeQ=="/>
 		<POI MapID="24" xpos="454.578" ypos="50.492" zpos="358.935" type="tt.mc.cm.mm.griffon" GUID="wfc/Ys0fOUWoLznZbaU8Wg=="/>
 		<POI MapID="24" xpos="483.93" ypos="45.7287" zpos="387.434" type="tt.mc.cm.rm.vistas" GUID="6DJIhwAC3Ey0OZz5Dk0hRA=="/>
 		<POI MapID="24" xpos="661.603" ypos="45.2426" zpos="-136.789" type="tt.mc.cm.mm.griffon" GUID="qEZYnnCtNEG0U+yy5umHQg=="/>
@@ -2340,7 +2341,7 @@
 		<POI MapID="15" xpos="735.657" ypos="51.8294" zpos="-514.755" type="tt.mc.h.hsm.number3" GUID="S1Awhznoa0eO8clvRWDPYQ=="/>
 		<POI MapID="15" xpos="678.887" ypos="57.3135" zpos="-547.981" type="tt.mc.h.hsm.number3" GUID="r6MJGJi47kmk6v77yA3iaw=="/>
 		<POI MapID="15" xpos="701.97" ypos="54.6962" zpos="-531.939" type="tt.mc.h.hsm.number3" GUID="eMFGuH2dOU+jR4amc17Q6A=="/>
-		<POI MapID="15" xpos="701.828" ypos="58.2222" zpos="-594.243" type="tt.mc.cm.rm.points_of_interest" GUID="im3oXhgsR0uv/vkJG9DlRQ=="/>
+		<POI MapID="15" xpos="701.828" ypos="58.2222" zpos="-594.243" type="tt.mc.cm.rm.points_of_interest_highlighted" GUID="im3oXhgsR0uv/vkJG9DlRQ=="/>
 		<POI MapID="15" xpos="708.724" ypos="-13.7668" zpos="633.878" type="tt.mc.h.chm.interact" GUID="5dSPA/UsXUqUZ5aNq1LC1A=="/>
 		<POI MapID="15" xpos="729.133" ypos="-17.7399" zpos="627.915" type="tt.mc.h.chm.interact" GUID="ehhWO4d9q0KU2NL3Wd6q4Q=="/>
 		<POI MapID="15" xpos="731.467" ypos="28.6286" zpos="251.787" type="tt.mc.cm.rm.points_of_interest" GUID="dl6blGWwqEitTbZp4ZXjAw=="/>
@@ -2425,7 +2426,8 @@
 		<POI MapID="15" xpos="-556.84" ypos="35.4327" zpos="-417.585" type="tt.mc.h.chm.interact" GUID="KIiXqbyP5km4rxVRxWiyyg=="/>
 		<POI MapID="15" xpos="-557.506" ypos="35.4342" zpos="-411.21" type="tt.mc.h.chm.kill" GUID="z9s2jC86yUqZESQ+phbQHA=="/>
 		<POI MapID="15" xpos="-564.335" ypos="35.4352" zpos="-404.061" type="tt.mc.h.chm.finish_heart" GUID="d0vRftQ4T0anRnHizGzuzg=="/>
-		<POI MapID="15" xpos="-567.362" ypos="35.0779" zpos="-426.255" type="tt.mc.h.chm.start_heart" info="Do sword or shield training" infoRange="40.0" GUID="OOE2GTBO00yopOPx2L0YCQ=="/>
+		<POI MapID="15" xpos="-567.362" ypos="35.0779" zpos="-426.255" type="tt.mc.h.chm.start_heart" info="Take sword, go to mark, DO NOT target sergeant, press 1 when he lowers shield, can do up to 3 hits" infoRange="40.0" GUID="OOE2GTBO00yopOPx2L0YCQ=="/>
+		<POI MapID="15" xpos="-559.825" ypos="35.4315" zpos="-419.265" type="tt.mc.h.chm.arrow" GUID="EG9p8SlTk0mZ+lJxQbfVjA=="/>
 		<POI MapID="15" xpos="-567.922" ypos="35.393" zpos="-409.78" type="tt.mc.cm.rm.waypoints" GUID="LxdSFEUbuE+ZL3+2iTyFpA=="/>
 		<POI MapID="15" xpos="-580.539" ypos="70.5602" zpos="154.068" type="tt.mc.cm.rm.points_of_interest" GUID="5TZdNlV1mE+15l5LFKkT7g=="/>
 		<POI MapID="15" xpos="-641.994" ypos="22.1777" zpos="360.016" type="tt.mc.cm.rm.waypoints" GUID="JZt1EA6ufE2iJaQpHBb+2g=="/>
@@ -2898,7 +2900,7 @@
 		<POI MapID="34" xpos="-428.113" ypos="28.0797" zpos="64.6492" type="tt.mc.h.chm.interact" GUID="MmFnuNCj/UiRm1XkjfJeTA=="/>
 		<POI MapID="34" xpos="-429.471" ypos="28.6977" zpos="81.6555" type="tt.mc.h.chm.interact" GUID="nCCfKekhcUW3z4DSfSlUAw=="/>
 		<POI MapID="34" xpos="-432.975" ypos="28.5618" zpos="72.3128" type="tt.mc.h.chm.interact" GUID="vGw9iBFK1EOuJ9CqdoGplA=="/>
-		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Interactables along left wall | Spread pollen" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
+		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Kill grubs + choking vines | Talk to heart -> Use any bundle -> Interact all + spread pollen" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
 		<POI MapID="34" xpos="-454.448" ypos="31.3984" zpos="-895.759" type="tt.mc.h.chm.finish_heart" GUID="Vdk6I5bNQ0mzEO/Dif71og=="/>
 		<POI MapID="34" xpos="-346.055" ypos="0.14534" zpos="1087.98" type="tt.mc.h.chm.start_heart" info="Interact with larvae and kill mosquitoes" infoRange="40.0" GUID="ART6/Pklp0GxLTTJSbqLhg=="/>
 		<POI MapID="34" xpos="-455.523" ypos="32.5846" zpos="-890.009" type="tt.mc.h.chm.talk" GUID="cP3cjKnIw0eCvFr1hZi1OQ=="/>
@@ -3099,7 +3101,7 @@
 		<POI MapID="35" xpos="-509.805" ypos="35.1243" zpos="375.782" type="tt.mc.h.chm.start_heart" GUID="ExiQjRe9DkmUHVlgx174Bg==" info="Kill irradiated rats, Interact multiple chaotic materials then kill chaos beasts" infoRange="40.0"/>
 		<POI MapID="35" xpos="-326.277" ypos="8.89238" zpos="-418.552" type="tt.mc.h.chm.talk" GUID="0Daj2xaKZkSqkX3NQbOnHA=="/>
 		<POI MapID="35" xpos="-341.708" ypos="7.55648" zpos="-335.161" type="tt.mc.cm.rm.waypoints" GUID="ryCcBqUEDUCzWHhfmfOjSg=="/>
-		<POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialist and kill " infoRange="40.0"/>
+		<POI MapID="35" xpos="-343.352" ypos="7.67265" zpos="-333.182" type="tt.mc.h.chm.start_heart" GUID="Rk+JzcCdd06KSvQZNihJ2Q==" info="Talk to Suspicious Salvage Specialist -> kill | If no suspicious up, follow green trail -> kill all + interact danger sign" infoRange="40.0"/>
 		<POI MapID="35" xpos="-343.605" ypos="8.47234" zpos="-354.995" type="tt.mc.h.chm.talk" GUID="F2Tgp/oSKUOy5MNm/fK51Q=="/>
 		<POI MapID="35" xpos="-350.634" ypos="8.83936" zpos="-340.95" type="tt.mc.cm.wm.wparrow" GUID="0qSojZnceEa0UyDqembcTQ=="/>
 		<POI MapID="35" xpos="-351.658" ypos="8.96766" zpos="-339.161" type="tt.mc.h.chm.finish_heart" GUID="rhY0tTm41EalYS/i4vKkIQ=="/>
@@ -4014,7 +4016,8 @@
 		<POI MapID="27" xpos="-284.077" ypos="149.912" zpos="1067.45" type="tt.mc.cm.rm.vistas" GUID="L4KzoPeJgkm6cjcSZIh89g=="/>
 		<POI MapID="27" xpos="-288.643" ypos="61.7682" zpos="-1329.43" type="tt.mc.h.chm.interact" GUID="ZBLmlz2TRUipc3MbxBxjXQ=="/>
 		<POI MapID="27" xpos="-288.825" ypos="59.0832" zpos="158.096" type="tt.mc.h.chm.start_heart" info="Feed dolyaks, herd them, kill wurms" infoRange="40.0" GUID="RahdJp7iFUGWGEEZpOt2Xg=="/>
-		<POI MapID="27" xpos="-291.305" ypos="25.7066" zpos="-640.228" type="tt.mc.h.chm.start_heart" info="Kill pirates, loot their loot, destroy turrets" infoRange="40.0" GUID="vd6hESBLcUSF0dN3H8bW1g=="/>
+		<POI MapID="27" xpos="-291.305" ypos="25.7066" zpos="-640.228" type="tt.mc.h.chm.start_heart" info="Kill pirates, loot their loot (not enough to complete the heart by itself), destroy turrets" infoRange="40.0" GUID="vd6hESBLcUSF0dN3H8bW1g=="/>
+		<POI MapID="27" xpos="-149.345" ypos="3.4553" zpos="-693.929" type="tt.mc.h.chm.interact" GUID="50xMIZIAhkWQhYhGV6QAMQ=="/>
 		<POI MapID="27" xpos="-299.3" ypos="121.154" zpos="936.702" type="tt.mc.cm.rm.points_of_interest" GUID="KZqFntLc8UStgwLC9yZgkQ=="/>
 		<POI MapID="27" xpos="-308.664" ypos="59.0963" zpos="180.198" type="tt.mc.h.chm.interact" GUID="HEA78ALCLEuCNrI5kS+nmA=="/>
 		<POI MapID="27" xpos="-309.889" ypos="56.2932" zpos="158.195" type="tt.mc.h.chm.finish_heart" GUID="fOXPFxzUhUO+9SxupTAkfg=="/>
@@ -4055,7 +4058,7 @@
 		<POI MapID="27" xpos="-398.109" ypos="11.7224" zpos="-989.484" type="tt.mc.cm.rm.points_of_interest" GUID="R/1N38LNO0K8BWSY1crNCA=="/>
 		<POI MapID="27" xpos="-401.969" ypos="41.7727" zpos="-1190.95" type="tt.mc.cm.wm.star" GUID="2MKE1Ygjuk+J6DXTyCdbOw=="/>
 		<POI MapID="27" xpos="-403.215" ypos="116.012" zpos="1053.24" type="tt.mc.h.chm.gather" GUID="I4U42UgTBEmZCTwknNCnlQ=="/>
-		<POI MapID="27" xpos="-404.374" ypos="45.5224" zpos="-1202.7" type="tt.mc.cm.mm.griffon" GUID="Rc+s2pKUBUSN8CZgjF/K3A=="/>
+		<POI MapID="27" xpos="-404.374" ypos="45.5224" zpos="-1202.7" type="tt.mc.cm.mm.skyscale" GUID="Rc+s2pKUBUSN8CZgjF/K3A=="/>
 		<POI MapID="27" xpos="-404.998" ypos="40.0235" zpos="-1177.38" type="tt.mc.cm.rm.waypoints" GUID="2Mf0XDnQbEWf/XBqw5dgBg=="/>
 		<POI MapID="27" xpos="-409.361" ypos="168.896" zpos="496.918" type="tt.mc.cm.rm.waypoints" GUID="EvWH/Al1H0ubnVVdBhzlLw=="/>
 		<POI MapID="27" xpos="-416.525" ypos="168.931" zpos="491.069" type="tt.mc.cm.rm.2" GUID="+1y2f5ZomEGVFB398pMvUQ=="/>
@@ -4296,7 +4299,7 @@
 		<POI MapID="28" xpos="482.78" ypos="15.8487" zpos="-1046.23" type="tt.mc.cm.rm.points_of_interest" GUID="GYTGim+/rkiTVvQBycnNFA=="/>
 		<POI MapID="28" xpos="483.219" ypos="15.5796" zpos="-1050.02" type="tt.mc.cm.wm.wptriangle" GUID="8vXrQx7xHEuUj1b6Bm0Pzg=="/>
 		<POI MapID="28" xpos="-8.39798" ypos="39.8469" zpos="-767.042" type="tt.mc.cm.rm.waypoints" GUID="b5Bwy+heZkmo/mkxxDr8yA=="/>
-		<POI MapID="28" xpos="-11.9512" ypos="86.9986" zpos="-697.748" type="tt.mc.h.chm.start_heart" info="Cull skelk" infoRange="40.0" GUID="7sa+k/Tp/06Lyb1c1hh3dg=="/>
+		<POI MapID="28" xpos="-11.9512" ypos="86.9986" zpos="-697.748" type="tt.mc.h.chm.start_heart" info="Turn in raven eggs in any nest" infoRange="40.0" GUID="7sa+k/Tp/06Lyb1c1hh3dg=="/>
 		<POI MapID="28" xpos="-12.4289" ypos="43.3435" zpos="-760.648" type="tt.mc.h.chm.finish_heart" GUID="6hS9lwYqNEKHDbK4grgDSQ=="/>
 		<POI MapID="28" xpos="-11.6377" ypos="36.8095" zpos="-205.779" type="tt.mc.h.chm.finish_heart" info="Pick up the rabbit food, drop it, scare the rabbits away, repeat" infoRange="40.0" GUID="byviTqlTrUyiEIT9AxL2RA=="/>
 		<POI MapID="28" xpos="-17.9603" ypos="37.439" zpos="-198.988" type="tt.mc.h.chm.talk" GUID="4s07QDRgQ0G90qokSB/jQA=="/>
@@ -4388,6 +4391,7 @@
 		<POI MapID="73" xpos="-95.7293" ypos="1.14945" zpos="801.073" type="tt.mc.cm.mm.beetle" GUID="y88xqy1LlEuWdo1uJaHNXA=="/>
 		<POI MapID="73" xpos="-169.576" ypos="29.4673" zpos="251.833" type="tt.mc.cm.mm.griffon" GUID="PreVclAwr0WSzQi+u7Y5PQ=="/>
 		<POI MapID="73" xpos="-198.612" ypos="44.2205" zpos="171.412" type="tt.mc.cm.mm.springertogriff" GUID="tZ11VSTFdEKpZpKQTkR30A=="/>
+		<POI MapID="73" xpos="-151.093" ypos="14.2579" zpos="251.53" type="tt.mc.cm.mm.skyscale" GUID="RmV2dFyyoUqeOVOrJ90XmQ=="/>
 		<POI MapID="73" xpos="167.429" ypos="2.48434" zpos="-43.2833" type="tt.mc.cm.mm.beetle" GUID="9Iq/XQhJVkaURwrMPdsAdQ=="/>
 		<POI MapID="73" xpos="263.798" ypos="20.5508" zpos="-150.901" type="tt.mc.cm.mm.beetle" GUID="Yls5RyEiJEyk1YIyLQxFCg=="/>
 		<POI MapID="73" xpos="151.277" ypos="9.50512" zpos="-98.4094" type="tt.mc.cm.mm.beetle" GUID="eXmtwMFno0i9M1Zhb+xV9Q=="/>
@@ -5060,7 +5064,7 @@
 		<POI MapID="29" xpos="-476.479" ypos="48.4128" zpos="731.311" type="tt.mc.h.chm.interact" GUID="+M+L3MqsKEqcapQdpgKDVw=="/>
 		<POI MapID="29" xpos="-548.533" ypos="39.8414" zpos="929.952" type="tt.mc.cm.rm.start" GUID="4HsprZYgeEip6c1mnLnBrw=="/>
 		<POI MapID="29" xpos="-549.835" ypos="26.4563" zpos="133.823" type="tt.mc.cm.wm.wparrow" GUID="P6Y7kDtxfk2xwiM83jXVyA=="/>
-		<POI MapID="29" xpos="-551.436" ypos="26.4186" zpos="132.745" type="tt.mc.cm.rm.points_of_interest" GUID="YPkoJ4habkmxyU5+jEGtag=="/>
+		<POI MapID="29" xpos="-551.436" ypos="26.4186" zpos="132.745" type="tt.mc.cm.rm.points_of_interest_highlighted" GUID="YPkoJ4habkmxyU5+jEGtag=="/>
 		<POI MapID="29" xpos="-672.387" ypos="37.0528" zpos="-470.795" type="tt.mc.cm.wm.wptriangle" GUID="mAjH8gkjl0ePjtT7ndTFcQ=="/>
 
 	
@@ -5705,6 +5709,8 @@
 		
 		<!-- HEART TRAILS -->
 		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PlainsofAshfordHearts.trl"/>
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/PirateLootHeart.trl"/>
+		<Trail type="tt.mc.h.ht" trailData="Data/MapCompletion/Trails/hearttrails/HelpShoonHeart.trl"/>
 		
 		<!-- HEART ZONES -->
 		<Trail type="tt.mc.h.hz" trailData="Data/MapCompletion/Trails/heartzones/BlazeridgeSteppesHeartZones.trl"/>
@@ -5737,7 +5743,8 @@
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/StraitsofDevastationSkyscale.trl"/>
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/CursedShoreSkyscale.trl"/>
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/PlainsofAshfordSkyscale.trl"/>
-
+		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/LaughingGullSkyscale.trl"/>
+		
 		<!-- TRAILS OF SHAME -->
 		<Trail type="tt.mc.tos" trailData="Data/MapCompletion/Trails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos" trailData="Data/MapCompletion/Trails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
