@@ -2897,7 +2897,7 @@
 		<POI MapID="34" xpos="-428.113" ypos="28.0797" zpos="64.6492" type="tt.mc.h.chm.interact" GUID="MmFnuNCj/UiRm1XkjfJeTA=="/>
 		<POI MapID="34" xpos="-429.471" ypos="28.6977" zpos="81.6555" type="tt.mc.h.chm.interact" GUID="nCCfKekhcUW3z4DSfSlUAw=="/>
 		<POI MapID="34" xpos="-432.975" ypos="28.5618" zpos="72.3128" type="tt.mc.h.chm.interact" GUID="vGw9iBFK1EOuJ9CqdoGplA=="/>
-		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Kill grubs + choking vines | Talk to heart -> Use any bundle -> Interact all + spread pollen" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
+		<POI MapID="34" xpos="-459.799" ypos="31.5889" zpos="-891.147" type="tt.mc.h.chm.start_heart" info="Kill grubs + choking vines | Talk to heart -> Interactables along left wall + spread pollen" infoRange="40.0" GUID="Ro/w0DcxQkm2H/32p0Rccw=="/>
 		<POI MapID="34" xpos="-454.448" ypos="31.3984" zpos="-895.759" type="tt.mc.h.chm.finish_heart" GUID="Vdk6I5bNQ0mzEO/Dif71og=="/>
 		<POI MapID="34" xpos="-346.055" ypos="0.14534" zpos="1087.98" type="tt.mc.h.chm.start_heart" info="Interact with larvae and kill mosquitoes" infoRange="40.0" GUID="ART6/Pklp0GxLTTJSbqLhg=="/>
 		<POI MapID="34" xpos="-455.523" ypos="32.5846" zpos="-890.009" type="tt.mc.h.chm.talk" GUID="cP3cjKnIw0eCvFr1hZi1OQ=="/>
@@ -3569,6 +3569,8 @@
 		<POI MapID="26" xpos="-354.726" ypos="6.99262" zpos="-726.151" type="tt.mc.h.chm.interact" GUID="55DixYq1v0y0CbvQOyPyjg=="/>
 		<POI MapID="26" xpos="-345.591" ypos="5.96178" zpos="-754.629" type="tt.mc.h.chm.interact" GUID="bldwitor8ESCqmUxcb588Q=="/>
 		<POI MapID="26" xpos="-366.976" ypos="98.3442" zpos="-562.242" type="tt.mc.cm.mm.griffon" GUID="xwKKUPQcHE2NMlra9nijUA=="/>
+		<POI MapID="26" xpos="-354.718" ypos="6.45895" zpos="-730.292" type="tt.mc.cm.mm.skyscale" GUID="bqXkXnpvTkKHTwu4u5C9ig=="/>
+		<POI MapID="26" xpos="-507.083" ypos="80.7812" zpos="-872.334" type="tt.mc.cm.rm.bondoffaith" GUID="Rm/rHT+7v0aNqvkr3rBS1g=="/>
 		<POI MapID="26" xpos="-409.345" ypos="88.6288" zpos="-283.473" type="tt.mc.cm.wm.heart" GUID="nZy/1fOZcU6p/s4BT7zHMQ=="/>
 		<POI MapID="26" xpos="-409.706" ypos="42.0239" zpos="527.551" type="tt.mc.cm.rm.waypoints" GUID="cRrbsvAmOkSeB5bqxvk4qQ=="/>
 		<POI MapID="26" xpos="-413.736" ypos="83.1879" zpos="-270.495" type="tt.mc.cm.rm.waypoints" GUID="WqEb+XWrPEyBw+QUsE8imA=="/>
@@ -4262,6 +4264,8 @@
 		<POI MapID="28" xpos="232.763" ypos="48.1041" zpos="-661.231" type="tt.mc.cm.wm.wpx" GUID="zFyZXYGXC0SxSAemFpWh6Q=="/>
 		<POI MapID="28" xpos="236.187" ypos="85.2165" zpos="520.055" type="tt.mc.cm.rm.waypoints" GUID="c1jV/wN84EqdosO+RaV6fw=="/>
 		<POI MapID="28" xpos="238.05" ypos="88.747" zpos="858.697" type="tt.mc.h.chm.start_heart" info="Capture calfs, cull skelk" infoRange="40.0" GUID="HfRLngu4e0W7/WbmIfjPug=="/>
+		<POI MapID="28" xpos="302.435" ypos="151.074" zpos="1111.09" type="tt.mc.cm.rm.ppr_m" GUID="kxEpz9mXUk2k3DgktVQ/Ag=="/>
+		<POI MapID="28" xpos="416.364" ypos="149.54" zpos="1192.81" type="tt.mc.cm.rm.ppr_r" GUID="HoG9xbwliUyGTCArSQv8QQ=="/>
 		<POI MapID="28" xpos="242.238" ypos="0.217302" zpos="-754.405" type="tt.mc.h.chm.interact" GUID="+VDxgZmrzE2ow5UNFgSYVQ=="/>
 		<POI MapID="28" xpos="243.466" ypos="-0.372539" zpos="-806.988" type="tt.mc.h.chm.start_heart" info="Open fish traps, disarm bear traps, kick trees, kill Svarnir, duel acolytes, erase tags" infoRange="40.0" GUID="4jN5fH8keEWHUnNieKzpzg=="/>
 		<POI MapID="28" xpos="248.862" ypos="0.254725" zpos="-801.723" type="tt.mc.h.chm.interact" GUID="OTfTvCNZy0+L7ceaPI4sCg=="/>
@@ -5739,7 +5743,8 @@
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/CursedShoreSkyscale.trl"/>
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/PlainsofAshfordSkyscale.trl"/>
 		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/LaughingGullSkyscale.trl"/>
-
+		<Trail type="tt.mc.sst" trailData="Data/MapCompletion/Trails/skyscaletrails/TribulationVistaSkyscale.trl"/>
+		
 		<!-- TRAILS OF SHAME -->
 		<Trail type="tt.mc.tos" trailData="Data/MapCompletion/Trails/trailsofshame/GendarranFieldsTrailOfShame.trl"/>
 		<Trail type="tt.mc.tos" trailData="Data/MapCompletion/Trails/trailsofshame/FrostgorgeSoundTrailOfShame.trl"/>
