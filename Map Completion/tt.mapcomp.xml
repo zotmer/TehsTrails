@@ -39,8 +39,8 @@
 					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/MapCompletion/General/Finish.png" iconSize="0.75"/>
 					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/MapCompletion/General/exit_instance.png" iconSize="0.75"/>
 					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/MapCompletion/General/Dismount.png" iconSize="0.4"/>
-					<MarkerCategory name="ppr-m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr-r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="0.5"/>
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="0.5"/>
 					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/MapCompletion/General/Portal.png" iconSize="0.5"/>
 					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/MapCompletion/General/WeaponSwap.png" iconSize="0.5"/>
 					<MarkerCategory name="1" DisplayName="One" iconFile="Data/MapCompletion/General/1.png" iconSize="0.8"/>
@@ -200,6 +200,11 @@
 						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:"/>
 						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546"/>
 					</MarkerCategory>
+					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian">
+						<MarkerCategory name="zot" DisplayName="Who helped provide improvements"/>
+						<MarkerCategory name="zot0" DisplayName="to various things in the pack:"/>
+						<MarkerCategory name="zot1" DisplayName="zotmer"/>
+					</MarkerCategory>
 					<MarkerCategory name="orig" DisplayName="The Original Pioneers">
 						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I"/>
 						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
@@ -207,7 +212,7 @@
 						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]"/>
 						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr"/>
 					</MarkerCategory>
-					<MarkerCategory name="maptesters" DisplayName="The Map Testers">
+					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
 						<MarkerCategory name="maptester0" DisplayName="Alatar.7364"/>
 						<MarkerCategory name="maptester1" DisplayName="Ank.9537"/>
 						<MarkerCategory name="maptester2" DisplayName="Blood.5607"/>
@@ -231,6 +236,7 @@
 						<MarkerCategory name="maptester20" DisplayName="Xanky.6475"/>
 						<MarkerCategory name="maptester21" DisplayName="xeronil.6930"/>
 						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853"/>
+						<MarkerCategory name="contributor" DisplayName="TarEnethil"/>
 					</MarkerCategory>
 				</MarkerCategory>
 				
@@ -1687,7 +1693,7 @@
 		<POI MapID="19" xpos="-22.2507" ypos="48.0359" zpos="150.974" type="tt.mc.cm.rm.waypoints" GUID="HoKpshOYFEGLF1yrVxR9/Q=="/>
 		<POI MapID="19" xpos="-39.2909" ypos="36.269" zpos="404" type="tt.mc.cm.rm.points_of_interest" GUID="ptKuEZZuwUakr6inDhRD1Q=="/>
 		<POI MapID="19" xpos="21.4604" ypos="31.5817" zpos="-29.4406" type="tt.mc.h.chm.start_heart" info="Kill ghosts" infoRange="40.0" GUID="ssOZEIv6t0yMl+z5bMLlMg=="/>
-		<POI MapID="19" xpos=" -54.0497" ypos="43.6899" zpos="-263.195" type="tt.mc.cm.rm.waypoints" GUID="nrTgPIqKEkOWLj54XtTtCQ=="/>
+		<POI MapID="19" xpos="-54.0497" ypos="43.6899" zpos="-263.195" type="tt.mc.cm.rm.waypoints" GUID="nrTgPIqKEkOWLj54XtTtCQ=="/>
 		<POI MapID="19" xpos="-200.019" ypos="58.5173" zpos="-129.347" type="tt.mc.h.chm.kill" GUID="8ndwZx3aeUapxpmhc644NQ=="/>
 		<POI MapID="19" xpos="-217.548" ypos="58.5038" zpos="459.232" type="tt.mc.cm.rm.waypoints" GUID="pmIM6zjJiUG3+2ohaDhUXw=="/>
 		<POI MapID="19" xpos="-272.574" ypos="36.3925" zpos="-509.827" type="tt.mc.cm.mm.griffon" GUID="pm273DEj8UiMdGmIUXX+Pg=="/>
@@ -1987,6 +1993,7 @@
 		<POI MapID="17" xpos="708.481" ypos="-43.0338" zpos="-721.13" type="tt.mc.cm.rm.points_of_interest" GUID="7pIRLyfuP0+9ef9ruF1ywQ=="/>
 		<POI MapID="17" xpos="714.648" ypos="76.2067" zpos="-341.385" type="tt.mc.cm.rm.vistas" GUID="aPDZ5hCIYk2ecRkKfu2QuQ=="/>
 		<POI MapID="17" xpos="746.469" ypos="2.34534" zpos="-645.701" type="tt.mc.cm.mm.jackal" GUID="kqYzaKrVcEKw6rnoyAATpA=="/>
+		<POI MapID="17" xpos="749.266" ypos="45.459" zpos="-449.414" type="tt.mc.cm.mm.griffon" GUID="Fi5iZK1K1kq7coj5DBSY6A=="/>
 		<POI MapID="17" xpos="781.166" ypos="56.3495" zpos="-492.752" type="tt.mc.h.chm.kill" GUID="qGkmGJgF60GdHA0+TSxgnw=="/>
 		<POI MapID="17" xpos="792.201" ypos="46.4522" zpos="-417.181" type="tt.mc.cm.mm.griffon" GUID="YAIoyF0wZ0WwJhEH0atbCg=="/>
 		<POI MapID="17" xpos="796.972" ypos="44.7915" zpos="-438.289" type="tt.mc.cm.rm.waypoints" GUID="xDrq47PlE0KYSHk+wcwhIA=="/>
