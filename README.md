@@ -1,27 +1,26 @@
-# TehsTrails
-A collection of xTeh.7146's marker packs. 
+# TehsTrails with changes from Zotmer
+A collection of xTeh.7146's marker packs adjusted to suit my own needs.
 
-Currently contains two packs, World Completion and Teh's Train Trails
+The changes are intended mainly for my own personal use, but if you intend to speedrun map completion you are free to use it as well. These pack changes are **ABSOLUTELY NOT** for you, if you want to run map comp at a relaxed pace. Instead you should try the original pack (https://github.com/xrandox/TehsTrails) 
+
+### Requirements for using the pack
+Being VERY familiar with the original pack (You can find the original at https://github.com/xrandox/TehsTrails)  
+Having all the mounts with all the relevant masteries unlocked  
+Having prototype position rewinder (https://wiki.guildwars2.com/wiki/Prototype_Position_Rewinder)  
+Using Notarized Scrolls of Heroics to complete all heroic challenges during the run  
+Using [trading post items](https://github.com/xrandox/TehsTrails/wiki/List-of-Trading-Post-Heart-Items) to instantly complete some hearts  
+Running map comp as a level 80 with a meta build (as of writing it´s [this power build](http://en.gw2skills.net/editor/?PawAoqRlN0w2qbZlNswGZjOMX7PVA-zRIYR09PINTo2RZlSR1sY1yG-e) and [this build for stacking conditions](http://en.gw2skills.net/editor/?PawAUprlN0wO6YIhMqyGZjO2W%2FvWA-zRRYBRwQGF8DTqCoZE1OIrEIdSADDA-e) or any better build you come up with). 
+***
+
+### Download link for latest version
+[tt.mapcomp.taco](https://github.com/zotmer/TehsTrails/raw/version_zotmer/Map%20Completion/tt.mapcomp.taco)
 
 ***
 
-### Map Completion 
-A pack tailored for speedrunning central tyria map completion. It utilizes all mounts, waypoints and a multitude of markers (Nearing 5,000!) to give you the fastest map completion times possible. The current map comp world record of 8h59m utilizes this packs routing!
-
-Latest Pack Download Link: [tt.mapcomp.taco](https://github.com/xrandox/TehsTrails/raw/main/Map%20Completion/tt.mapcomp.taco)
-
-***
-### Hero Point Train Trails
-*Warning! This pack is still very rough, I haven't had a chance to give it much attention since I created it almost two years ago.*
-
-A collection of trails for the routes I used to use for my Hero Point Trains in HoT and PoF maps. Path of Fire can easily be used to quickly get an elite spec solo (~1-2 hours). It's recommend to bring some friends if you intend to do the Heart of Thorns HP's, as some can be difficult to solo. 
-
-Latest Pack Download Link: [tt.hptraintrails.taco](https://github.com/xrandox/TehsTrails/raw/main/HP%20Train%20Trails/tt.hptraintrails.taco)
-
+### What is different from the original pack
+Several new places for prototype position rewinder  
+Some heart guides (along with its zones and trails) updated to use faster speedrunning techniques  
+Updated several trails to be faster (mostly longer griffon flights in Orrian maps)
 ***
 
-### There's a ton more information over on the [wiki](https://github.com/xrandox/TehsTrails/wiki), be sure to check it out!
-
-***
-
-### You can also join the discord! https://discord.gg/bJV6VXT
+### If you have any questions about my changes or the original pack, be sure to join the discord! https://discord.gg/bJV6VXT
