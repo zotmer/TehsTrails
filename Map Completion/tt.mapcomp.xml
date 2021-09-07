@@ -33,31 +33,31 @@
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="cm" DisplayName="Common Markers">
 			
-				<MarkerCategory name="rm" DisplayName="Route Markers" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
-					<MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest.png" iconSize="0.4"/>
-					<MarkerCategory name="points_of_interest_highlighted" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest_highlighted.png" iconSize="0.8" fadeNear="5500" fadeFar="8000"/>
-					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/MapCompletion/General/Vista.png" iconSize="0.5"/>
-					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/MapCompletion/General/Waypoint.png" iconSize="0.75"/>
-					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/MapCompletion/General/Finish.png" iconSize="0.75"/>
-					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/MapCompletion/General/exit_instance.png" iconSize="0.75"/>
-					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/MapCompletion/General/Dismount.png" iconSize="0.4"/>
-					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="0.5"/>
-					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="0.5"/>
-					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/MapCompletion/General/Portal.png" iconSize="0.5"/>
-					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/MapCompletion/General/WeaponSwap.png" iconSize="0.5"/>
-					<MarkerCategory name="1" DisplayName="One" iconFile="Data/MapCompletion/General/1.png" iconSize="0.8"/>
-					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/MapCompletion/General/2.png" iconSize="0.8"/>
-					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/MapCompletion/General/3.png" iconSize="0.8"/>
-					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/MapCompletion/General/Bond_of_Faith.png" iconSize="0.5"/>
-					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/MapCompletion/General/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+				<MarkerCategory name="rm" DisplayName="Route Markers" iconSize="4.0" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+					<MarkerCategory name="points_of_interest" iconSize="3.5" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest.png"/>
+					<MarkerCategory name="points_of_interest_highlighted" DisplayName="Points of Interest" iconFile="Data/MapCompletion/General/Point_of_interest_highlighted.png" iconSize="1.6" fadeNear="5500" fadeFar="8000"/>
+					<MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/MapCompletion/General/Vista.png" iconSize="3.0"/>
+					<MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/MapCompletion/General/Waypoint.png"/>
+					<MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/MapCompletion/General/Finish.png" iconSize="2.0"/>
+					<MarkerCategory name="exit_instance" DisplayName="Exit Instance" iconFile="Data/MapCompletion/General/exit_instance.png" iconSize="4.5"/>
+					<MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/MapCompletion/General/Dismount.png"/>
+					<MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/MapCompletion/General/PPR-Mark.png" iconSize="5.0"/>
+					<MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/MapCompletion/General/PPR-Rewind.png" iconSize="5.0"/>
+					<MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/MapCompletion/General/Portal.png" iconSize="1.5"/>
+					<MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/MapCompletion/General/WeaponSwap.png" iconSize="4.0"/>
+					<MarkerCategory name="1" DisplayName="One" iconFile="Data/MapCompletion/General/1.png"/>
+					<MarkerCategory name="2" DisplayName="Two" iconFile="Data/MapCompletion/General/2.png"/>
+					<MarkerCategory name="3" DisplayName="Three" iconFile="Data/MapCompletion/General/3.png"/>
+					<MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/MapCompletion/General/Bond_of_Faith.png" iconSize="1.5"/>
+					<MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/MapCompletion/General/Start.png" iconSize="3.0" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="nm" DisplayName="Next Map" iconFile="Data/MapCompletion/General/nextmap.png" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
-					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/MapCompletion/General/hourglass.png" iconSize="0.8"/>
+					<MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/MapCompletion/General/hourglass.png" iconSize="0.5"/>
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/MapCompletion/General/shoppinglist.png" iconSize="1.5"/>
-					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/MapCompletion/General/ExitMap.png" iconSize="3.0" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="2.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 				  <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/MapCompletion/General/Raptor.png"/>
 				  <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/MapCompletion/General/Springer.png"/>
 				  <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/MapCompletion/General/Griffon.png"/>
@@ -68,7 +68,7 @@
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/MapCompletion/General/BunnyToGriff.png"/>
 				</MarkerCategory>
 	
-				<MarkerCategory name="wm" DisplayName="Waypoint Markers" fadeNear="3500" fadeFar="4000">	
+				<MarkerCategory name="wm" DisplayName="Waypoint Markers" iconSize="2.5" fadeNear="3500" fadeFar="4000">	
 				  <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/MapCompletion/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/MapCompletion/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
 				  <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/MapCompletion/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" mapDisplaySize="35"/>
@@ -101,56 +101,55 @@
 				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
 				
 				<!-- Common Heart Markers -->
-				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="3.0" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="start_heart" DisplayName="Start Heart" iconFile="Data/MapCompletion/General/Renown_Heart_empty.png"/>
 					<MarkerCategory name="finish_heart" DisplayName="100% Heartwall" iconFile="Data/MapCompletion/General/Renown_Heart.png"/>
-					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/MapCompletion/General/Arrow.png"/>
-					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/MapCompletion/General/Talk.png" iconSize="0.75"/>
-					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/MapCompletion/General/Deposit.png"/>
-					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/MapCompletion/General/Kill.png"/>
-					<MarkerCategory name="gather" DisplayName="Gather" iconFile="Data/MapCompletion/General/Gather.png"/>
-					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/MapCompletion/General/Interact.png"/>
-					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/MapCompletion/General/Deposit.png"/>
-					<MarkerCategory name="tradingpost" DisplayName="Trading Post Heart" iconFile="Data/MapCompletion/General/Trading_Post.png"/>
+					<MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/MapCompletion/General/Arrow.png" iconSize="1.5"/>
+					<MarkerCategory name="talk" DisplayName="Talk" iconFile="Data/MapCompletion/General/Talk.png" iconSize="2.0"/>
+					<MarkerCategory name="deposit" DisplayName="Deposit" iconFile="Data/MapCompletion/General/Deposit.png" iconSize="2.5"/>
+					<MarkerCategory name="kill" DisplayName="Kill" iconFile="Data/MapCompletion/General/Kill.png" iconSize="1.5"/>
+					<MarkerCategory name="gather" DisplayName="Gather" iconFile="Data/MapCompletion/General/Gather.png" iconSize="1.5"/>
+					<MarkerCategory name="interact" DisplayName="Interact" iconFile="Data/MapCompletion/General/Interact.png" iconSize="2.5"/>
+					<MarkerCategory name="tradingpost" DisplayName="Trading Post Heart" iconFile="Data/MapCompletion/General/Trading_Post.png" iconSize="1.5"/>
 				</MarkerCategory>
 				
 				<!-- Heart Specific Markers -->
-				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
+				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="1.25" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
 					<MarkerCategory name="cleanoil" DisplayName="Clean Oil" iconFile="Data/MapCompletion/General/heartspecific/CleanOil.png"/>
-					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/MapCompletion/General/heartspecific/lattice1.png" iconSize="2"/>
-					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/MapCompletion/General/heartspecific/lattice2.png"/>
-					<MarkerCategory name="lattice3" DisplayName="Lattice 3" iconFile="Data/MapCompletion/General/heartspecific/lattice3.png"/>
-					<MarkerCategory name="lattice4" DisplayName="Lattice 4" iconFile="Data/MapCompletion/General/heartspecific/lattice4.png" iconSize="2"/>
-					<MarkerCategory name="lattice5" DisplayName="Lattice 5" iconFile="Data/MapCompletion/General/heartspecific/lattice5.png" iconSize="2"/>
-					<MarkerCategory name="lattice6" DisplayName="Lattice 6" iconFile="Data/MapCompletion/General/heartspecific/lattice6.png" iconSize="2"/>
-					<MarkerCategory name="lattice7" DisplayName="Lattice 7" iconFile="Data/MapCompletion/General/heartspecific/lattice7.png" iconSize="2"/>
-					<MarkerCategory name="lattice8" DisplayName="Lattice 8" iconFile="Data/MapCompletion/General/heartspecific/lattice8.png" iconSize="2"/>
-					<MarkerCategory name="lattice9" DisplayName="Lattice 9" iconFile="Data/MapCompletion/General/heartspecific/lattice9.png" iconSize="2"/>
-					<MarkerCategory name="lattice10" DisplayName="Lattice 10" iconFile="Data/MapCompletion/General/heartspecific/lattice10.png" iconSize="2"/>
-					<MarkerCategory name="grahm" DisplayName="Grahm" iconFile="Data/MapCompletion/General/heartspecific/Grahm.png"/>
-					<MarkerCategory name="jadenisa" DisplayName="Jaden and Isa" iconFile="Data/MapCompletion/General/heartspecific/JadenIsa.png"/>
-					<MarkerCategory name="robin" DisplayName="Robin" iconFile="Data/MapCompletion/General/heartspecific/Robin.png"/>
-					<MarkerCategory name="aaron" DisplayName="Aaron" iconFile="Data/MapCompletion/General/heartspecific/Aaron.png"/>
-					<MarkerCategory name="elwynn" DisplayName="Elwynn" iconFile="Data/MapCompletion/General/heartspecific/Elwynn.png"/>
-					<MarkerCategory name="mosreh" DisplayName="Mosreh" iconFile="Data/MapCompletion/General/heartspecific/Mosreh.png"/>
-					<MarkerCategory name="dagger" DisplayName="Dagger" iconFile="Data/MapCompletion/General/heartspecific/dagger.png"/>
-					<MarkerCategory name="greatsword" DisplayName="Greatsword" iconFile="Data/MapCompletion/General/heartspecific/greatsword.png"/>
-					<MarkerCategory name="mace" DisplayName="Mace" iconFile="Data/MapCompletion/General/heartspecific/mace.png"/>
-					<MarkerCategory name="sword" DisplayName="Sword" iconFile="Data/MapCompletion/General/heartspecific/sword.png"/>
-					<MarkerCategory name="torch" DisplayName="Torch" iconFile="Data/MapCompletion/General/heartspecific/torch.png"/>
-					<MarkerCategory name="warhammer" DisplayName="Warhammer" iconFile="Data/MapCompletion/General/heartspecific/warhammer.png"/>
+					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/MapCompletion/General/heartspecific/lattice1.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/MapCompletion/General/heartspecific/lattice2.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice3" DisplayName="Lattice 3" iconFile="Data/MapCompletion/General/heartspecific/lattice3.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice4" DisplayName="Lattice 4" iconFile="Data/MapCompletion/General/heartspecific/lattice4.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice5" DisplayName="Lattice 5" iconFile="Data/MapCompletion/General/heartspecific/lattice5.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice6" DisplayName="Lattice 6" iconFile="Data/MapCompletion/General/heartspecific/lattice6.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice7" DisplayName="Lattice 7" iconFile="Data/MapCompletion/General/heartspecific/lattice7.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice8" DisplayName="Lattice 8" iconFile="Data/MapCompletion/General/heartspecific/lattice8.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice9" DisplayName="Lattice 9" iconFile="Data/MapCompletion/General/heartspecific/lattice9.png" iconSize="1.5"/>
+					<MarkerCategory name="lattice10" DisplayName="Lattice 10" iconFile="Data/MapCompletion/General/heartspecific/lattice10.png" iconSize="1.5"/>
+					<MarkerCategory name="grahm" DisplayName="Grahm" iconFile="Data/MapCompletion/General/heartspecific/Grahm.png" iconSize="1.5"/>
+					<MarkerCategory name="jadenisa" DisplayName="Jaden and Isa" iconFile="Data/MapCompletion/General/heartspecific/JadenIsa.png" iconSize="1.5"/>
+					<MarkerCategory name="robin" DisplayName="Robin" iconFile="Data/MapCompletion/General/heartspecific/Robin.png" iconSize="1.5"/>
+					<MarkerCategory name="aaron" DisplayName="Aaron" iconFile="Data/MapCompletion/General/heartspecific/Aaron.png" iconSize="1.5"/>
+					<MarkerCategory name="elwynn" DisplayName="Elwynn" iconFile="Data/MapCompletion/General/heartspecific/Elwynn.png" iconSize="1.5"/>
+					<MarkerCategory name="mosreh" DisplayName="Mosreh" iconFile="Data/MapCompletion/General/heartspecific/Mosreh.png" iconSize="1.5"/>
+					<MarkerCategory name="dagger" DisplayName="Dagger" iconFile="Data/MapCompletion/General/heartspecific/dagger.png" iconSize="1.5"/>
+					<MarkerCategory name="greatsword" DisplayName="Greatsword" iconFile="Data/MapCompletion/General/heartspecific/greatsword.png" iconSize="1.5"/>
+					<MarkerCategory name="mace" DisplayName="Mace" iconFile="Data/MapCompletion/General/heartspecific/mace.png" iconSize="1.5"/>
+					<MarkerCategory name="sword" DisplayName="Sword" iconFile="Data/MapCompletion/General/heartspecific/sword.png" iconSize="1.5"/>
+					<MarkerCategory name="torch" DisplayName="Torch" iconFile="Data/MapCompletion/General/heartspecific/torch.png" iconSize="1.5"/>
+					<MarkerCategory name="warhammer" DisplayName="Warhammer" iconFile="Data/MapCompletion/General/heartspecific/warhammer.png" iconSize="1.5"/>
 					<MarkerCategory name="pourwater" DisplayName="Pour Water" iconFile="Data/MapCompletion/General/heartspecific/Throw_Water.png"/>
-					<MarkerCategory name="sit" DisplayName="Sit" iconFile="Data/MapCompletion/General/heartspecific/sit.png" iconSize="0.75"/>
-					<MarkerCategory name="threaten" DisplayName="Threaten" iconFile="Data/MapCompletion/General/heartspecific/Threaten.png" iconSize="0.75"/>
-					<MarkerCategory name="cheer" DisplayName="Cheer" iconFile="Data/MapCompletion/General/heartspecific/Cheer.png" iconSize="0.75"/>
-					<MarkerCategory name="bow" DisplayName="Bow" iconFile="Data/MapCompletion/General/heartspecific/Bow.png" iconSize="0.75"/>
-					<MarkerCategory name="number1" DisplayName="Number 1" iconFile="Data/MapCompletion/General/heartspecific/number1.png" iconSize="0.4"/>
-					<MarkerCategory name="number2" DisplayName="Number 2" iconFile="Data/MapCompletion/General/heartspecific/number2.png" iconSize="0.4"/>
-					<MarkerCategory name="number3" DisplayName="Number 3" iconFile="Data/MapCompletion/General/heartspecific/number3.png" iconSize="0.4"/>
-					<MarkerCategory name="fullinventory" DisplayName="Full Inventory" iconFile="Data/MapCompletion/General/heartspecific/Full_Inventory.png" iconSize="0.35"/>
-					<MarkerCategory name="meat" DisplayName="Meat" iconFile="Data/MapCompletion/General/heartspecific/Meat.png"/>
-					<MarkerCategory name="drink" DisplayName="Drink" iconFile="Data/MapCompletion/General/heartspecific/Drink.png"/>
-					<MarkerCategory name="inspire" DisplayName="Inspire" iconFile="Data/MapCompletion/General/heartspecific/Inspire.png"/>
+					<MarkerCategory name="sit" DisplayName="Sit" iconFile="Data/MapCompletion/General/heartspecific/sit.png"/>
+					<MarkerCategory name="threaten" DisplayName="Threaten" iconFile="Data/MapCompletion/General/heartspecific/Threaten.png"/>
+					<MarkerCategory name="cheer" DisplayName="Cheer" iconFile="Data/MapCompletion/General/heartspecific/Cheer.png"/>
+					<MarkerCategory name="bow" DisplayName="Bow" iconFile="Data/MapCompletion/General/heartspecific/Bow.png"/>
+					<MarkerCategory name="number1" DisplayName="Number 1" iconFile="Data/MapCompletion/General/heartspecific/number1.png"/>
+					<MarkerCategory name="number2" DisplayName="Number 2" iconFile="Data/MapCompletion/General/heartspecific/number2.png"/>
+					<MarkerCategory name="number3" DisplayName="Number 3" iconFile="Data/MapCompletion/General/heartspecific/number3.png"/>
+					<MarkerCategory name="fullinventory" DisplayName="Full Inventory" iconFile="Data/MapCompletion/General/heartspecific/Full_Inventory.png" iconSize="3.0"/>
+					<MarkerCategory name="meat" DisplayName="Meat" iconFile="Data/MapCompletion/General/heartspecific/Meat.png" iconSize="2.5"/>
+					<MarkerCategory name="drink" DisplayName="Drink" iconFile="Data/MapCompletion/General/heartspecific/Drink.png" iconSize="1.5"/>
+					<MarkerCategory name="inspire" DisplayName="Inspire" iconFile="Data/MapCompletion/General/heartspecific/Inspire.png" iconSize="1.5"/>
 				</MarkerCategory>
 			
 			</MarkerCategory>
