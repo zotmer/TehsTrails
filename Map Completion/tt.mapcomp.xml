@@ -5,28 +5,28 @@
 		<!--==                                                                              MAIN TRAILS                                                                          ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="ct" DisplayName="Main Trail (Choose your color!)">
-				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:"/>
+				<MarkerCategory name="info" DisplayName="Untick all but the color you'd like to choose:" isseparator="1"/>
 				<!-- RED -->
-				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapR" DisplayName="Red" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/RedTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREY -->
-				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapG" DisplayName="Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- LIGHT GREY -->
-				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapLG" DisplayName="Light Grey" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/LightGreyTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- ORANGE -->
-				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapO" DisplayName="Orange" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/OrangeTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PINK -->
-				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapP" DisplayName="Pink" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PinkTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- PEPEGA -->
-				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapPe" DisplayName="Pepegas" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/PepegaTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK PURPLE -->
-				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapDP" DisplayName="Dark Purple" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkPurpleTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- DARK BLUE -->
-				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapDB" DisplayName="Dark Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/DarkBlueTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- GREEN -->
-				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.5" texture="Data/MapCompletion/General/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="mapGR" DisplayName="Green" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/GreenTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<!-- BLUE (PRIORITY) -->
-				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0"/>
-				</MarkerCategory>
+				<MarkerCategory name="mapB" DisplayName="Blue" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/Trail.png" trailScale="1" miniMapVisibility="0"/>
+			</MarkerCategory>
 
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                        Marker Organization                                                                        ==-->
@@ -55,6 +55,15 @@
 					<MarkerCategory name="shoppinglist" DisplayName="Shopping List" iconFile="Data/MapCompletion/General/shoppinglist.png" iconSize="1.5"/>
 					<MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1"/>
 					<MarkerCategory name="exit_map_by_teleporting" DisplayName="Exit Point Teleportation" iconFile="Data/MapCompletion/General/ExitMap.png" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
+					<MarkerCategory name="nem" DisplayName="Numbered Exit Map Markers" fadeNear="3500" fadeFar="4000" scaleOnMapWithZoom="0" mapDisplaySize="35" miniMapVisibility="1" mapVisibility="1">
+						<MarkerCategory name="exit_map_1" DisplayName="Exit Map 1" iconFile="Data/MapCompletion/General/ExitMap1.png"/>
+						<MarkerCategory name="exit_map_2" DisplayName="Exit Map 2" iconFile="Data/MapCompletion/General/ExitMap2.png"/>
+						<MarkerCategory name="exit_map_3" DisplayName="Exit Map 3" iconFile="Data/MapCompletion/General/ExitMap3.png"/>
+						<MarkerCategory name="exit_map_4" DisplayName="Exit Map 4" iconFile="Data/MapCompletion/General/ExitMap4.png"/>
+						<MarkerCategory name="exit_map_5" DisplayName="Exit Map 5" iconFile="Data/MapCompletion/General/ExitMap5.png"/>
+						<MarkerCategory name="exit_map_6" DisplayName="Exit Map 6" iconFile="Data/MapCompletion/General/ExitMap6.png"/>
+						<MarkerCategory name="exit_map_7" DisplayName="Exit Map 7" iconFile="Data/MapCompletion/General/ExitMap7.png"/>
+					</MarkerCategory>
 				</MarkerCategory>
 	
 				<MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -98,7 +107,7 @@
 				<!-- Heart Trails -->
 				<MarkerCategory name="ht" DisplayName="Heart Trails" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartTrail.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
 				<!-- Heart Zone Categories -->
-				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0"/>
+				<MarkerCategory name="hz" DisplayName="Heart Zones" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HeartZone.png" trailScale="1" miniMapVisibility="0" mapVisibility="0" iswall="1"/>
 				
 				<!-- Common Heart Markers -->
 				<MarkerCategory name="chm" DisplayName="Common Heart Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
@@ -116,7 +125,6 @@
 				
 				<!-- Heart Specific Markers -->
 				<MarkerCategory name="hsm" DisplayName="Heart-Specific Markers" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0">
-					<MarkerCategory name="cleanoil" DisplayName="Clean Oil" iconFile="Data/MapCompletion/General/heartspecific/CleanOil.png"/>
 					<MarkerCategory name="lattice1" DisplayName="Lattice 1" iconFile="Data/MapCompletion/General/heartspecific/lattice1.png" iconSize="2"/>
 					<MarkerCategory name="lattice2" DisplayName="Lattice 2" iconFile="Data/MapCompletion/General/heartspecific/lattice2.png"/>
 					<MarkerCategory name="lattice3" DisplayName="Lattice 3" iconFile="Data/MapCompletion/General/heartspecific/lattice3.png"/>
@@ -163,105 +171,105 @@
 		<!--==                                                                            HERO POINTS                                                                            ==-->
 		<!--=======================================================================================================================================================================-->
 			<MarkerCategory name="hp" DisplayName="Hero Points">
-				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
+				<MarkerCategory name="hpt" DisplayName="Hero Point Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/HPTrail.png" trailScale="1" miniMapVisibility="0"/>
 				<MarkerCategory name="hpm" DisplayName="Hero Point Markers" iconFile="Data/MapCompletion/General/hp.png" iconSize="0.5" fadeNear="3500" fadeFar="4000" miniMapVisibility="0" mapVisibility="0"/>
 			</MarkerCategory>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/SkyscaleTrail.png" trailScale="1" miniMapVisibility="0"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                           TRAILS OF SHAME                                                                         ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="3" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
+			<MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" animSpeed="0.25" texture="Data/MapCompletion/General/TrailOfShame.png" trailScale="1" miniMapVisibility="0"/>
 		<!--=======================================================================================================================================================================-->
 		<!--==                                                                               CREDITS                                                                             ==-->
 		<!--=======================================================================================================================================================================-->
-			<MarkerCategory name="credits" DisplayName="Credits">
+			<MarkerCategory name="credits" DisplayName="Credits" isseparator="1">
 			
-				<MarkerCategory name="createdby" DisplayName="Created By">
-					<MarkerCategory name="discord" DisplayName="null#7146"/>
-					<MarkerCategory name="ign" DisplayName="xTeh.7146"/>
+				<MarkerCategory name="createdby" DisplayName="Created By" isseparator="1">
+					<MarkerCategory name="discord" DisplayName="null#7146" isseparator="1"/>
+					<MarkerCategory name="ign" DisplayName="xTeh.7146" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="thanksto" DisplayName="Special Thanks To">
-					<MarkerCategory name="snow" DisplayName="The Creator of BHUD">
-						<MarkerCategory name="snow" DisplayName="Who created the trail editing tool"/>
-						<MarkerCategory name="snow0" DisplayName="that made this pack possible:"/>
-						<MarkerCategory name="snow1" DisplayName="Freesnöw#0001"/>
-						<MarkerCategory name="snow2" DisplayName="LandersXanders.1235"/>
+				<MarkerCategory name="thanksto" DisplayName="Special Thanks To" isseparator="1">
+					<MarkerCategory name="snow" DisplayName="The Creator of BHUD" isseparator="1">
+						<MarkerCategory name="snow" DisplayName="Who created the trail editing tool" isseparator="1"/>
+						<MarkerCategory name="snow0" DisplayName="that made this pack possible:" isseparator="1"/>
+						<MarkerCategory name="snow1" DisplayName="Freesnöw#0001" isseparator="1"/>
+						<MarkerCategory name="snow2" DisplayName="LandersXanders.1235" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="foxe" DisplayName="The Ever-So-Talented Artist">
-						<MarkerCategory name="foxe" DisplayName="Who drew the custom mount markers"/>
-						<MarkerCategory name="foxe0" DisplayName="and kept me from going insane:"/>
-						<MarkerCategory name="foxe1" DisplayName="foxe#9222"/>
-						<MarkerCategory name="foxe2" DisplayName="foxetrotte.6873"/>
-						<MarkerCategory name="foxe3" DisplayName="@foxetails"/>
+					<MarkerCategory name="foxe" DisplayName="The Ever-So-Talented Artist" isseparator="1">
+						<MarkerCategory name="foxe" DisplayName="Who drew the custom mount markers" isseparator="1"/>
+						<MarkerCategory name="foxe0" DisplayName="and kept me from going insane:" isseparator="1"/>
+						<MarkerCategory name="foxe1" DisplayName="foxe#9222" isseparator="1"/>
+						<MarkerCategory name="foxe2" DisplayName="foxetrotte.6873" isseparator="1"/>
+						<MarkerCategory name="foxe3" DisplayName="@foxetails" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="odeh" DisplayName="The Mad Assistant">
-						<MarkerCategory name="odeh" DisplayName="Who probably went just"/>
-						<MarkerCategory name="odeh0" DisplayName="as insane as I did:"/>
-						<MarkerCategory name="odeh1" DisplayName="Odeh.9310"/>
+					<MarkerCategory name="odeh" DisplayName="The Mad Assistant" isseparator="1">
+						<MarkerCategory name="odeh" DisplayName="Who probably went just" isseparator="1"/>
+						<MarkerCategory name="odeh0" DisplayName="as insane as I did:" isseparator="1"/>
+						<MarkerCategory name="odeh1" DisplayName="Odeh.9310" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="radd" DisplayName="The Slave Laborer">
-						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:"/>
-						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546"/>
+					<MarkerCategory name="radd" DisplayName="The Slave Laborer" isseparator="1">
+						<MarkerCategory name="radd" DisplayName="Who helped keep me organized:" isseparator="1"/>
+						<MarkerCategory name="radd0" DisplayName="Orange Turtle.3546" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian">
-						<MarkerCategory name="zot" DisplayName="Who helped provide improvements"/>
-						<MarkerCategory name="zot0" DisplayName="to various things in the pack:"/>
-						<MarkerCategory name="zot1" DisplayName="zotmer"/>
+					<MarkerCategory name="zot" DisplayName="The Fastest Tyrian" isseparator="1">
+						<MarkerCategory name="zot" DisplayName="Who helped provide improvements" isseparator="1"/>
+						<MarkerCategory name="zot0" DisplayName="to various things in the pack:" isseparator="1"/>
+						<MarkerCategory name="zot1" DisplayName="zotmer" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="orig" DisplayName="The Original Pioneers">
-						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I"/>
-						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
-						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:"/>
-						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]"/>
-						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr"/>
+					<MarkerCategory name="orig" DisplayName="The Original Pioneers" isseparator="1">
+						<MarkerCategory name="orig" DisplayName="Who developed the base routing that I" isseparator="1"/>
+						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:" isseparator="1"/>
+						<MarkerCategory name="orig0" DisplayName="started with, and inspired the project:" isseparator="1"/>
+						<MarkerCategory name="orig1" DisplayName="Lulleh.6714 - [LAW]" isseparator="1"/>
+						<MarkerCategory name="orig2" DisplayName="ideka's AugTyr" isseparator="1"/>
 					</MarkerCategory>
-					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors">
-						<MarkerCategory name="maptester0" DisplayName="Alatar.7364"/>
-						<MarkerCategory name="maptester1" DisplayName="Ank.9537"/>
-						<MarkerCategory name="maptester2" DisplayName="Blood.5607"/>
-						<MarkerCategory name="maptester3" DisplayName="choco.5918"/>
-						<MarkerCategory name="maptester4" DisplayName="Deekay.1579"/>
-						<MarkerCategory name="maptester5" DisplayName="Don.9870"/>
-						<MarkerCategory name="maptester6" DisplayName="Emikadon.8542"/>
-						<MarkerCategory name="maptester7" DisplayName="Frenzy.6189"/>
-						<MarkerCategory name="maptester8" DisplayName="iToPouch.5073"/>
-						<MarkerCategory name="maptester9" DisplayName="justsoelmo.7068"/>
-						<MarkerCategory name="maptester10" DisplayName="lokko.7534"/>
-						<MarkerCategory name="maptester11" DisplayName="Lycart.5487"/>
-						<MarkerCategory name="maptester12" DisplayName="Lyra.7082"/>
-						<MarkerCategory name="maptester13" DisplayName="Mavrande.5849"/>
-						<MarkerCategory name="maptester14" DisplayName="Pizzous.4783"/>
-						<MarkerCategory name="maptester15" DisplayName="Predator.1430"/>
-						<MarkerCategory name="maptester16" DisplayName="Scott Ware.7291"/>
-						<MarkerCategory name="maptester17" DisplayName="ScythShot.9236"/>
-						<MarkerCategory name="maptester18" DisplayName="Sj Vermeulen.1470"/>
-						<MarkerCategory name="maptester19" DisplayName="Tacnayn.2754"/>
-						<MarkerCategory name="maptester20" DisplayName="Xanky.6475"/>
-						<MarkerCategory name="maptester21" DisplayName="xeronil.6930"/>
-						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853"/>
-						<MarkerCategory name="contributor" DisplayName="TarEnethil"/>
+					<MarkerCategory name="maptesters" DisplayName="The Testers/Contributors" isseparator="1">
+						<MarkerCategory name="maptester0" DisplayName="Alatar.7364" isseparator="1"/>
+						<MarkerCategory name="maptester1" DisplayName="Ank.9537" isseparator="1"/>
+						<MarkerCategory name="maptester2" DisplayName="Blood.5607" isseparator="1"/>
+						<MarkerCategory name="maptester3" DisplayName="choco.5918" isseparator="1"/>
+						<MarkerCategory name="maptester4" DisplayName="Deekay.1579" isseparator="1"/>
+						<MarkerCategory name="maptester5" DisplayName="Don.9870" isseparator="1"/>
+						<MarkerCategory name="maptester6" DisplayName="Emikadon.8542" isseparator="1"/>
+						<MarkerCategory name="maptester7" DisplayName="Frenzy.6189" isseparator="1"/>
+						<MarkerCategory name="maptester8" DisplayName="iToPouch.5073" isseparator="1"/>
+						<MarkerCategory name="maptester9" DisplayName="justsoelmo.7068" isseparator="1"/>
+						<MarkerCategory name="maptester10" DisplayName="lokko.7534" isseparator="1"/>
+						<MarkerCategory name="maptester11" DisplayName="Lycart.5487" isseparator="1"/>
+						<MarkerCategory name="maptester12" DisplayName="Lyra.7082" isseparator="1"/>
+						<MarkerCategory name="maptester13" DisplayName="Mavrande.5849" isseparator="1"/>
+						<MarkerCategory name="maptester14" DisplayName="Pizzous.4783" isseparator="1"/>
+						<MarkerCategory name="maptester15" DisplayName="Predator.1430" isseparator="1"/>
+						<MarkerCategory name="maptester16" DisplayName="Scott Ware.7291" isseparator="1"/>
+						<MarkerCategory name="maptester17" DisplayName="ScythShot.9236" isseparator="1"/>
+						<MarkerCategory name="maptester18" DisplayName="Sj Vermeulen.1470" isseparator="1"/>
+						<MarkerCategory name="maptester19" DisplayName="Tacnayn.2754" isseparator="1"/>
+						<MarkerCategory name="maptester20" DisplayName="Xanky.6475" isseparator="1"/>
+						<MarkerCategory name="maptester21" DisplayName="xeronil.6930" isseparator="1"/>
+						<MarkerCategory name="maptester22" DisplayName="xhellkellx.4853" isseparator="1"/>
+						<MarkerCategory name="contributor" DisplayName="TarEnethil" isseparator="1"/>
 					</MarkerCategory>
 				</MarkerCategory>
 				
-				<MarkerCategory name="asssetsfrom" DisplayName="Assets From">
-					<MarkerCategory name="assets" DisplayName="Arenanet"/>
-					<MarkerCategory name="assets0" DisplayName="(Plz don't sue me for copyright)"/>
+				<MarkerCategory name="asssetsfrom" DisplayName="Assets From" isseparator="1">
+					<MarkerCategory name="assets" DisplayName="Arenanet" isseparator="1"/>
+					<MarkerCategory name="assets0" DisplayName="(Plz don't sue me for copyright)" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!">
-					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT"/>
-					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow Discord - https://discord.gg/7tWwz499rX"/>
-					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD Discord - https://discord.gg/FYKN3qh"/>
+				<MarkerCategory name="joindiscord" DisplayName="Join us on discord!" isseparator="1">
+					<MarkerCategory name="ttinvitelink" DisplayName="Teh's Trails - https://discord.gg/bJV6VXT" isseparator="1"/>
+					<MarkerCategory name="overflowinvitelink" DisplayName="Overflow Discord - https://discord.gg/7tWwz499rX" isseparator="1"/>
+					<MarkerCategory name="bhudinvitelink" DisplayName="Blish HUD Discord - https://discord.gg/FYKN3qh" isseparator="1"/>
 				</MarkerCategory>
 				
-				<MarkerCategory name="donations" DisplayName="Feeling generous?">
-					<MarkerCategory name="mail" DisplayName="Feel free to send a mail to xTeh.7146"/>
-					<MarkerCategory name="donation" DisplayName="Every donation is appreciated!"/>
-					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)"/>
+				<MarkerCategory name="donations" DisplayName="Feeling generous?" isseparator="1">
+					<MarkerCategory name="mail" DisplayName="Feel free to send a mail to xTeh.7146" isseparator="1"/>
+					<MarkerCategory name="donation" DisplayName="Every donation is appreciated!" isseparator="1"/>
+					<MarkerCategory name="kind" DisplayName="Even just kind words are nice to receive :)" isseparator="1"/>
 				</MarkerCategory>
 				
 			</MarkerCategory>
@@ -522,25 +530,26 @@
 		
 		
 		<!--============================================= LION'S ARCH MARKERS =============================================-->
+
 		<POI MapID="50" xpos="-296.809" ypos="7.64322" zpos="262.566" type="tt.mc.cm.mm.skyscale" GUID="cnsEU3s1m0+C1U2qpdZ4zg=="/>
 		<POI MapID="50" xpos="-172.847" ypos="22.2342" zpos="191.532" type="tt.mc.cm.rm.shoppinglist" GUID="DI7sKnF7fE+bDiG0WihhWQ=="/>
 		<POI MapID="50" xpos="69.3641" ypos="24.5885" zpos="315.652" type="tt.mc.cm.rm.points_of_interest" GUID="9g8Llai4Ikih4ZaHIPADDQ=="/>
 		<POI MapID="50" xpos="91.9232" ypos="23.9449" zpos="146.449" type="tt.mc.cm.rm.waypoints" GUID="H5GjaPFTNUu4odKEHS5Qmw=="/>
 		<POI MapID="50" xpos="95.7767" ypos="29.0314" zpos="161.663" type="tt.mc.cm.wm.arrow" GUID="OTTaP42T30qoTFe7da921Q=="/>
-		<POI MapID="50" xpos="102.341" ypos="39.2841" zpos="209.937" type="tt.mc.cm.rm.start" GUID="DcnZybSli0+G6DZdsi6T/A=="/>
+		<POI MapID="50" xpos="102.341" ypos="39.2841" zpos="209.937" type="tt.mc.cm.rm.nem.exit_map_1" GUID="DcnZybSli0+G6DZdsi6T/A=="/>
 		<POI MapID="50" xpos="118.644" ypos="34.514" zpos="-32.7869" type="tt.mc.cm.mm.griffon" GUID="Pd6SB4v/qE2YwBFHQqQoCw=="/>
 		<POI MapID="50" xpos="126.353" ypos="36.143" zpos="185.531" type="tt.mc.cm.rm.points_of_interest" GUID="7ndf0Dvl1E6u8+ISjObr7g=="/>
-		<POI MapID="50" xpos="127.275" ypos="39.2886" zpos="266.673" type="tt.mc.cm.rm.start" GUID="xP6Xhkkw3EitrXtuHrwdiw=="/>
+		<POI MapID="50" xpos="127.275" ypos="39.2886" zpos="266.673" type="tt.mc.cm.rm.nem.exit_map_3" GUID="xP6Xhkkw3EitrXtuHrwdiw=="/>
 		<POI MapID="50" xpos="133.422" ypos="38.6519" zpos="194.745" type="tt.mc.cm.rm.finish" GUID="jATrL7BYP06BdHsqAnMoaA=="/>
 		<POI MapID="50" xpos="139.545" ypos="36.0891" zpos="-44.4482" type="tt.mc.cm.rm.points_of_interest" GUID="cbxOYBdLnUuMUfNeZ27nEg=="/>
-		<POI MapID="50" xpos="145.075" ypos="39.324" zpos="176.598" type="tt.mc.cm.rm.start" GUID="jvQbCuG7jkOOpqb9SDOshA=="/>
+		<POI MapID="50" xpos="145.075" ypos="39.324" zpos="176.598" type="tt.mc.cm.rm.nem.exit_map_2" GUID="jvQbCuG7jkOOpqb9SDOshA=="/>
 		<POI MapID="50" xpos="155.753" ypos="25.0818" zpos="-205.284" type="tt.mc.cm.rm.points_of_interest" GUID="sxO1Sq48Rk2eljDVisvqwg=="/>
 		<POI MapID="50" xpos="156.576" ypos="16.8755" zpos="69.6874" type="tt.mc.cm.rm.dismount" GUID="Lhg0vct1DUur7Z1+I0sv+g=="/>
 		<POI MapID="50" xpos="168.79" ypos="16.754" zpos="61.0025" type="tt.mc.cm.rm.vistas" GUID="G8BJQdPFfECtYOqS4rRirQ=="/>
 		<POI MapID="50" xpos="169.91" ypos="16.6862" zpos="60.0521" type="tt.mc.cm.mm.griffon" GUID="3xwxFF0y4kWN/QZEukfmZA=="/>
-		<POI MapID="50" xpos="170.401" ypos="39.5356" zpos="185.706" type="tt.mc.cm.rm.start" GUID="9BOIIpK3fk2DhTUInAqZBQ=="/>
+		<POI MapID="50" xpos="170.401" ypos="39.5356" zpos="185.706" type="tt.mc.cm.rm.nem.exit_map_5" GUID="9BOIIpK3fk2DhTUInAqZBQ=="/>
 		<POI MapID="50" xpos="172.228" ypos="30.2529" zpos="-130.745" type="tt.mc.cm.rm.waypoints" GUID="QTwWcXLcnUO7HnL8L35QwA=="/>
-		<POI MapID="50" xpos="179.836" ypos="39.3295" zpos="246.597" type="tt.mc.cm.rm.start" GUID="2anNDFtZq0OX+jZChiFDzw=="/>
+		<POI MapID="50" xpos="179.836" ypos="39.3295" zpos="246.597" type="tt.mc.cm.rm.nem.exit_map_4" GUID="2anNDFtZq0OX+jZChiFDzw=="/>
 		<POI MapID="50" xpos="200.114" ypos="30.6726" zpos="-288.455" type="tt.mc.cm.mm.raptor" GUID="wDkmwuSlzUyFNnGFzqAo7A=="/>
 		<POI MapID="50" xpos="209.096" ypos="30.9986" zpos="-292.67" type="tt.mc.cm.rm.points_of_interest" GUID="T/NXblxjqUqQgzjB5yx6Bg=="/>
 		<POI MapID="50" xpos="228" ypos="100.209" zpos="-531" type="tt.mc.cm.rm.start" GUID="JHJ1l65esUePo3BLGXjJsQ=="/>
@@ -2582,7 +2591,7 @@
 		
 		
 		<!--============================================= BRISBAN WILDLANDS MARKERS =============================================-->
-		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale" GUID=""/>
+		<POI MapID="54" xpos="76.5859" ypos="37.4365" zpos="14.0139" type="tt.mc.cm.mm.skyscale"/>
 		<POI MapID="54" xpos="285.743" ypos="74.51" zpos="-692.782" type="tt.mc.cm.mm.beetle" GUID="cch8FXtVS0u0avP8Z0jyOg=="/>
 		<POI MapID="54" xpos="397.146" ypos="1.02536" zpos="-377.28" type="tt.mc.cm.mm.jackal" GUID="hbkVvy4fWke1NQSRQxzqpg=="/>
 		<POI MapID="54" xpos="771.749" ypos="72.9005" zpos="391.704" type="tt.mc.cm.mm.beetle" GUID="cZxi69xf+UeI/iWXyVc7cQ=="/>
@@ -4572,7 +4581,7 @@
 		<POI MapID="73" xpos="548.523" ypos="1.93556" zpos="-800.209" type="tt.mc.cm.rm.waypoints" GUID="LRHQqiiQ202RA2s1x2Kcmw=="/>
 		<POI MapID="73" xpos="554.456" ypos="37.6271" zpos="-458.166" type="tt.mc.cm.rm.points_of_interest" GUID="JP9WWp4Hxk6dPjgvcheCUw=="/>
 		<POI MapID="73" xpos="567.374" ypos="38.0945" zpos="840.919" type="tt.mc.cm.rm.waypoints" GUID="UbbSKw6i2kCSXlS3DRgibw=="/>
-		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" info="Throw rum, fight pirates" infoRange="80.0" GUID="zzITttdV2EW53iOtznl03g=="/>
+		<POI MapID="73" xpos="737.326" ypos="31.2324" zpos="551.035" type="tt.mc.h.chm.start_heart" info="Throw rum, fight pirates (stack conditions)" infoRange="80.0" GUID="zzITttdV2EW53iOtznl03g=="/>
 		<POI MapID="73" xpos="606.788" ypos="2.64452" zpos="-836.587" type="tt.mc.h.hsm.number1" GUID="fuSnIVbZ3k61dthXqeyyzQ=="/>
 		<POI MapID="73" xpos="613.551" ypos="4.69709" zpos="-802.541" type="tt.mc.h.hsm.number2" GUID="P71q3uIclECI0VzOfuc5/Q=="/>
 		<POI MapID="73" xpos="615.212" ypos="4.08699" zpos="-806.158" type="tt.mc.h.hsm.number2" GUID="4X3genrnX0KwIuyEegkJwA=="/>
@@ -5681,7 +5690,7 @@
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapDB" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
-				<!-- RED TRAILS -->
+		<!-- RED TRAILS -->
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
 		<Trail type="tt.mc.ct.mapR" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
@@ -5767,6 +5776,50 @@
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
 		<Trail type="tt.mc.ct.mapDP" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+		<!-- GREEN TRAILS -->
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FieldsofRuin.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FireheartRise.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/IronMarches.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/PlainsofAshford.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadel.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BlackCitadelInstance4.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/Hoelbrak.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HoelbrakInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSum.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance2.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/RataSumInstance3.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TheGrove.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TheGroveInstance1.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DivinitysReach.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/LionsArch.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/GendarranFields.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/HarathiHinterlands.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/KessexHills.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/Queensdale.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/CaledonForest.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MetricaProvince.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/CursedShore.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MalchorsLeap.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/StraitsofDevastation.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/DredgehauntCliffs.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/FrostgorgeSound.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/LornarsPass.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/SnowdenDrifts.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/WayfarerFoothills.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/BloodtideCoast.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/MountMaelstrom.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/SparkflyFen.trl"/>
+		<Trail type="tt.mc.ct.mapGR" trailData="Data/MapCompletion/Trails/completiontrails/TimberlineFalls.trl"/>
+
 		<!-- BLUE TRAILS (PRIORITY) -->
 		<Trail type="tt.mc.ct.mapB" trailData="Data/MapCompletion/Trails/completiontrails/BlazeridgeSteppes.trl"/>
 		<Trail type="tt.mc.ct.mapB" trailData="Data/MapCompletion/Trails/completiontrails/DiessaPlateau.trl"/>
@@ -5864,8 +5917,8 @@
 		<Trail type="tt.mc.hp.hpt" GUID="WsBbuonAlEqXkEp71vGfTg==" trailData="Data/MapCompletion/Trails/hptrails/GendarranFields.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="K4VoGm0YHEyFugmmkF/2Kg==" trailData="Data/MapCompletion/Trails/hptrails/HarathiHinterlands.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="YihtVAY+D06J/6VyZUOifA==" trailData="Data/MapCompletion/Trails/hptrails/KessexHills.trl"/>
-		<Trail type="tt.mc.hp.hpt" alpha="3" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/Queensdale.trl"/>
-		<Trail type="tt.mc.hp.hpt" alpha="3" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/BrisbanWildlands.trl"/>
+		<Trail type="tt.mc.hp.hpt" alpha="1" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/Queensdale.trl"/>
+		<Trail type="tt.mc.hp.hpt" alpha="1" fadeNear="3000" fadeFar="3500" trailData="Data/MapCompletion/Trails/hptrails/BrisbanWildlands.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="YruYMoF5J0yNAphfFZ6GHQ==" trailData="Data/MapCompletion/Trails/hptrails/CaledonForest.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="wSlyq/qa9UqQHZQwgzEXrg==" trailData="Data/MapCompletion/Trails/hptrails/MetricaProvince.trl"/>
 		<Trail type="tt.mc.hp.hpt" GUID="tKwntjht5k2ht1YFdzQFHw==" trailData="Data/MapCompletion/Trails/hptrails/CursedShore.trl"/>
