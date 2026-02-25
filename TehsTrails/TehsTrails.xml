@@ -7588,7 +7588,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="988" xpos="60.09407" ypos="33.24082" zpos="-287.0765" GUID="cgzQItt/z0aqfXLjnmTWbg==" type="tt.mc.cm.wm.square" />
         <POI MapID="988" xpos="-59.45568" ypos="73.51926" zpos="-326.5755" GUID="wEtTKLJOxkaOcCez8F9JvA==" type="tt.mc.cm.wm.wpcircle" copy="[&amp;BHoHAAA=]" />
         <POI MapID="988" xpos="399.508" ypos="23.81018" zpos="-504.2278" GUID="tiLsHPsFW0eEGWYsY9T4Sg==" type="tt.mc.cm.rm.hourglass" info="Don't run during sandstorm (XX:40 - XX:00) as you won´t see a thing." />
-
+        <POI MapID="988" xpos="-237.1927" ypos="39.20633" zpos="-600.4973" GUID="sMjpFHDvjEaiCo12zBMTxg==" type="tt.mc.cm.rm.hourglass" info="If the gate is closed you will have to do the event here."/>
 
         <!--============================================= Hero Point Markers =============================================-->
 		<POI MapID="15" xpos="-139.154" ypos="32.5289" zpos="162.334" type="tt.mc.hp.hpm" GUID="p7qBiGShEE2PQdIHrkrQUw=="/>
