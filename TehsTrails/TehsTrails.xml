@@ -78,6 +78,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
                   <MarkerCategory name="boosttogriff" DisplayName="Glide boost or Springer to Griffon" iconFile="Data/TehsTrails/Markers/glideboostOrSpringerToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                    <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" iconSize="1">
@@ -263,6 +264,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
                     <MarkerCategory name="boosttogriff" DisplayName="Glide boost or Springer to Griffon" iconFile="Data/TehsTrails/Markers/glideboostOrSpringerToGriff.png"/>
 				  	<MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 					<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                    <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" infoRange="20">
@@ -319,8 +321,106 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		</MarkerCategory>
 
 
+    <!--=======================================================================================================================================================================-->
+    <!--==                                                                        ICEBROOD SAGA MAP COMP                                                                   ==-->
+    <!--=======================================================================================================================================================================-->
+    <MarkerCategory name="ibssep" DisplayName="     |===The Icebrood Saga===|     " isseparator="1"/>
+    <MarkerCategory name="ibs" DisplayName="Map Completion">
 
-	<!--=======================================================================================================================================================================-->	
+        <MarkerCategory name="mt" DisplayName="Main Trail" mapDisplaySize="12" fadeNear="3000" fadeFar="3500" scaleOnMapWithZoom="1" inGameVisibility="1" mapVisibility="1" texture="Data/TehsTrails/Markers/Trail.png" bh-texture="Data/TehsTrails/Markers/transparent.png">
+            <MarkerCategory name="nt" DisplayName="Normal Trail (Disable if using trail highlighting)" bh-defaulttoggle="0" defaulttoggle="1"/>
+            <MarkerCategory name="th" DisplayName="Trail Highlighting">
+                <MarkerCategory name="t1" DisplayName="First Trail Segment"/>
+                <MarkerCategory name="t" DisplayName="Main Trail Segments"/>
+                <MarkerCategory name="m" DisplayName="Trail Highlight Trigger Markers" iconSize="0.75" triggerRange="8" autoTrigger="1" inGameVisibility="0" miniMapVisibility="0" iconFile="Data/TehsTrails/Markers/tht.png" mapVisibility="0"/>
+            </MarkerCategory>
+        </MarkerCategory>
+
+        <!--=======================================================================================================================================================================-->
+        <!--==                                                                        Marker Organization                                                                        ==-->
+        <!--=======================================================================================================================================================================-->
+        <MarkerCategory name="cm" DisplayName="Common Markers">
+
+            <MarkerCategory name="rm" DisplayName="Route Markers">
+                <MarkerCategory name="points_of_interest" DisplayName="Points of Interest" iconFile="Data/TehsTrails/Markers/Point_of_interest.png" iconSize="0.4"/>
+                <MarkerCategory name="vistas" DisplayName="Vistas" iconFile="Data/TehsTrails/Markers/Vista.png" />
+                <MarkerCategory name="waypoints" DisplayName="Waypoints" iconFile="Data/TehsTrails/Markers/Waypoint.png" iconSize="0.75"/>
+                <MarkerCategory name="finish" DisplayName="Finish" iconFile="Data/TehsTrails/Markers/Finish.png" iconSize="0.75" autoTrigger="1" triggerRange="25" />
+                <MarkerCategory name="dismount" DisplayName="Dismount" iconFile="Data/TehsTrails/Markers/Dismount.png" iconSize="0.4"/>
+                <MarkerCategory name="hourglass" DisplayName="Hourglass" iconFile="Data/TehsTrails/Markers/hourglass.png" iconSize="0.8"/>
+                <MarkerCategory name="ppr_m" DisplayName="Prototype Position Rewinder - Mark" iconFile="Data/TehsTrails/Markers/PPR-Mark.png" />
+                <MarkerCategory name="ppr_r" DisplayName="Prototype Position Rewinder - Rewind" iconFile="Data/TehsTrails/Markers/PPR-Rewind.png" />
+                <MarkerCategory name="teleport" DisplayName="Teleport" iconFile="Data/TehsTrails/Markers/Teleport.png" />
+                <MarkerCategory name="portal" DisplayName="Portal" iconFile="Data/TehsTrails/Markers/Portal.png" />
+                <MarkerCategory name="weaponswap" DisplayName="Weapon Swap" iconFile="Data/TehsTrails/Markers/WeaponSwap.png" />
+                <MarkerCategory name="jadewp" DisplayName="Jade Bot Personal Waypoint" iconFile="Data/TehsTrails/Markers/jadewp.png"/>
+                <MarkerCategory name="1" DisplayName="One" iconFile="Data/TehsTrails/Markers/1.png" iconSize="0.8"/>
+                <MarkerCategory name="2" DisplayName="Two" iconFile="Data/TehsTrails/Markers/2.png" iconSize="0.8"/>
+                <MarkerCategory name="3" DisplayName="Three" iconFile="Data/TehsTrails/Markers/3.png" iconSize="0.8"/>
+                <MarkerCategory name="4" DisplayName="Four" iconFile="Data/TehsTrails/Markers/4.png" iconSize="0.8"/>
+                <MarkerCategory name="5" DisplayName="Five" iconFile="Data/TehsTrails/Markers/5.png" iconSize="0.8"/>
+                <MarkerCategory name="stealthmount" DisplayName="Stealth mount" iconFile="Data/TehsTrails/Markers/StealthMount.png" iconSize="0.75"/>
+                <MarkerCategory name="glider" DisplayName="Glider" iconFile="Data/TehsTrails/Markers/glider.png" />
+                <MarkerCategory name="bondoffaith" DisplayName="Bond of Faith" iconFile="Data/TehsTrails/Markers/Bond_of_Faith.png" />
+                <MarkerCategory name="gboost" DisplayName="Glide Booster" iconFile="Data/TehsTrails/Markers/glidebooster.png" />
+                <MarkerCategory name="start" DisplayName="Starting Point" iconFile="Data/TehsTrails/Markers/Start.png" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="exit_map" DisplayName="Exit Point" iconFile="Data/TehsTrails/Markers/ExitMap.png" scaleOnMapWithZoom="0" mapDisplaySize="45" miniMapVisibility="1" mapVisibility="1"/>
+            </MarkerCategory>
+
+            <MarkerCategory name="mm" DisplayName="Mount Markers" iconSize="1.5">
+                <MarkerCategory name="raptor" DisplayName="Raptor" iconFile="Data/TehsTrails/Markers/Raptor.png"/>
+                <MarkerCategory name="springer" DisplayName="Springer" iconFile="Data/TehsTrails/Markers/Springer.png"/>
+                <MarkerCategory name="griffon" DisplayName="Griffon" iconFile="Data/TehsTrails/Markers/Griffon.png"/>
+                <MarkerCategory name="skimmer" DisplayName="Skimmer" iconFile="Data/TehsTrails/Markers/Skimmer.png"/>
+                <MarkerCategory name="beetle" DisplayName="Beetle" iconFile="Data/TehsTrails/Markers/Beetle.png"/>
+                <MarkerCategory name="jackal" DisplayName="Jackal" iconFile="Data/TehsTrails/Markers/Jackal.png"/>
+                <MarkerCategory name="skyscale" DisplayName="Skyscale" iconFile="Data/TehsTrails/Markers/Skyscale.png"/>
+                <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
+                <MarkerCategory name="boosttogriff" DisplayName="Glide boost or Springer to Griffon" iconFile="Data/TehsTrails/Markers/glideboostOrSpringerToGriff.png"/>
+                <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
+                <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png" iconSize="0.7"/>
+            </MarkerCategory>
+
+            <MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" infoRange="20">
+                <MarkerCategory name="arrow" DisplayName="Arrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/arrow.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="circle" DisplayName="Circle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/circle.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="heart" DisplayName="Heart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/heart.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="square" DisplayName="Square" iconFile="Data/TehsTrails/Markers/WaypointMarkers/square.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="star" DisplayName="Star" iconFile="Data/TehsTrails/Markers/WaypointMarkers/star.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="swirl" DisplayName="Swirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/swirl.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="triangle" DisplayName="Triangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/triangle.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="x" DisplayName="X" iconFile="Data/TehsTrails/Markers/WaypointMarkers/x.png" scaleOnMapWithZoom="0" miniMapVisibility="1" mapVisibility="1"/>
+                <MarkerCategory name="wparrow" DisplayName="WPArrow" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPArrow.png" triggerRange="15"/>
+                <MarkerCategory name="wpcircle" DisplayName="WPCircle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPCircle.png" triggerRange="15"/>
+                <MarkerCategory name="wpheart" DisplayName="WPHeart" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPHeart.png" triggerRange="15"/>
+                <MarkerCategory name="wpsquare" DisplayName="WPSquare" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSquare.png" triggerRange="15"/>
+                <MarkerCategory name="wpstar" DisplayName="WPStar" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPStar.png" triggerRange="15"/>
+                <MarkerCategory name="wpswirl" DisplayName="WPSwirl" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPSwirl.png" triggerRange="15"/>
+                <MarkerCategory name="wptriangle" DisplayName="WPTriangle" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPTriangle.png" triggerRange="15"/>
+                <MarkerCategory name="wpx" DisplayName="WPX" iconFile="Data/TehsTrails/Markers/WaypointMarkers/WPX.png" triggerRange="15"/>
+            </MarkerCategory>
+
+            <MarkerCategory name="nwm" DisplayName="New Waypoint Markers (Requires Scripts)" bh-defaulttoggle="1" defaulttoggle="0" autoTrigger="1">
+                <MarkerCategory name="tpm" DisplayName="Teleport Marker" iconFile="Data/TehsTrails/Markers/waypoint-teleport.png" triggerRange="15" iconSize="1"/>
+                <MarkerCategory name="wph" DisplayName="Waypoint Highlight" iconFile="Data/TehsTrails/Markers/waypoint-highlight.png" tip-name="" scaleOnMapWithZoom="1" iconSize="2.0" mapDisplaySize="100" inGameVisibility="0"/>
+            </MarkerCategory>
+
+            <MarkerCategory name="se" DisplayName="Enable Scripting Reminder (BHUD Users)" bh-defaulttoggle="1" defaulttoggle="0" triggerRange="15000" autoTrigger="1" info="I've detected that you're using Teh's Trails with Blish HUD but scripts are not running.&#xA;&#xA;In order to properly use the pack you must have LUA scripting on.&#xA;&#xA;Pathing Module Settings -> Script Options -> Enable Lua Scripts&#xA;Then reload markers to remove this popup&#xA;&#xA;If that does not fix the problem, please ensure you are on the latest version of the Pathing, delete this pack, and redownload it. Downloading the pack on old versions of the Pathing module can strip the scripts from the pack, resulting in this issue.&#xA;&#xA;If you need help troubleshooting this message, please visit the BlishHUD discord!"/>
+        </MarkerCategory>
+        
+        <!--=======================================================================================================================================================================-->
+        <!--==                                                                           SKYSCALE TRAILS                                                                         ==-->
+        <!--=======================================================================================================================================================================-->
+        <MarkerCategory name="sst" DisplayName="Skyscale Trails" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/SkyscaleTrail.png" mapVisibility="1"/>
+        <!--=======================================================================================================================================================================-->
+        <!--==                                                                           TRAILS OF SHAME                                                                         ==-->
+        <!--=======================================================================================================================================================================-->
+        <MarkerCategory name="tos" DisplayName="Trails of Shame" mapDisplaySize="12" alpha="1" fadeNear="3000" fadeFar="3500" texture="Data/TehsTrails/Markers/TrailOfShame.png" mapVisibility="1"/>
+
+    </MarkerCategory>
+
+    <!--=======================================================================================================================================================================-->	
 	<!--==                                                                        END OF DRAGONS MAP COMP                                                                    ==-->
 	<!--=======================================================================================================================================================================-->
 		<MarkerCategory name="eodsep" DisplayName="     |===End of Dragons===|     " isseparator="1"/>
@@ -376,6 +476,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
                   <MarkerCategory name="boosttogriff" DisplayName="Glide boost or Springer to Griffon" iconFile="Data/TehsTrails/Markers/glideboostOrSpringerToGriff.png"/>
                   <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				  <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                  <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png"/>
 				</MarkerCategory>
 	
 				<MarkerCategory name="wm" DisplayName="Legacy Waypoint Markers" bh-defaulttoggle="0" defaulttoggle="1" autoTrigger="1" iconSize="1">
@@ -573,6 +674,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
                  <MarkerCategory name="boosttogriff" DisplayName="Glide boost or Springer to Griffon" iconFile="Data/TehsTrails/Markers/glideboostOrSpringerToGriff.png"/>
                  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				 <MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                 <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png"/>
 			</MarkerCategory>
 
 			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
@@ -633,6 +735,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 				  <MarkerCategory name="springertogriff" DisplayName="Springer to Griffon" iconFile="Data/TehsTrails/Markers/BunnyToGriff.png"/>
 				  <MarkerCategory name="jackal_launch" DisplayName="Jackal Launch" iconFile="Data/TehsTrails/Markers/JackalLaunch.png"/>
 				<MarkerCategory name="distogriff" DisplayName="Dismount to Griffon" iconFile="Data/TehsTrails/Markers/DismountToGriff.png"/>
+                <MarkerCategory name="slipstreamboost" DisplayName="Slipstream Boost" iconFile="Data/TehsTrails/Markers/SlipstreamBoost.png" iconSize="0.1" />
 			</MarkerCategory>
 
 			<MarkerCategory name="wm" DisplayName="Waypoint Markers (Requires Scripts)" autoTrigger="1">
@@ -8760,8 +8863,130 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 
 
 
+    <!--=======================================================================================================================================================================-->
+    <!--==                                                                        ICEBROOD SAGA MAP COMP                                                                     ==-->
+    <!--=======================================================================================================================================================================-->
+        <!--Drizzlewood Coast Markers-->
+        <POI MapID="1371" xpos="-53.93058" ypos="174.7127" zpos="-1121.231" GUID="vJaUJfCGFEa7EBhrVzgVBw==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-95.03536" ypos="151.8847" zpos="-1078.742" GUID="h7d+3xyWCkSwQV/1GfAtlA==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="-81.5213" ypos="168.8322" zpos="-1178.312" GUID="CW93cARrxEmRl3QXtJC7JA==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-55.44171" ypos="174.124" zpos="-1124.625" GUID="qE7lyAce3E6Oiv6Y5UE2EA==" type="tt.ibs.cm.mm.raptor" />
+        <POI MapID="1371" xpos="-292.6963" ypos="164.7584" zpos="-951.1381" GUID="w3vVscbXxkeXvMzwujPMGw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-358.8953" ypos="158.8553" zpos="-1098.074" GUID="3kJazuG5lEi58U639oxWzQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-487.7279" ypos="158.9021" zpos="-1134.935" GUID="capEYY46j0iW+jamgQrM/Q==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="378.6319" ypos="169.5877" zpos="-1034.142" GUID="8P7dGk/AFkuoufkZVlTLlQ==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="303.3745" ypos="131.561" zpos="-961.4058" GUID="6WsWVONbc0SZZLh0GzxICw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="199.9398" ypos="133.0272" zpos="-849.9261" GUID="JyABL2w3wUGBezhZzKcOhQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-107.8438" ypos="229.8331" zpos="-1086.573" GUID="12ObRiuaP0y+NnM+Dlx81w==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="-114.946" ypos="223.5906" zpos="-1079.357" GUID="5KfsQu562UGUsWerRDuncQ==" type="tt.ibs.cm.rm.1" />
+        <POI MapID="1371" xpos="-101.6651" ypos="223.5921" zpos="-1081.381" GUID="Y8OnylC89E6D1UCgIhTwNw==" type="tt.ibs.cm.rm.2" />
+        <POI MapID="1371" xpos="379.8463" ypos="168.9113" zpos="-1036.685" GUID="37qxg2nKS0iZP1/E6RAJpg==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="554.3411" ypos="15.76634" zpos="-926.8339" GUID="0bgazOVrSEO8ImudfEJJFw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="547.3625" ypos="8.713385" zpos="-504.8231" GUID="f7KZ3DlPqkyy3EU0IrFAxQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="562.3429" ypos="4.605314" zpos="-640.8009" GUID="LgZR/JimskOUE9c/47Jqvw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="448.9826" ypos="13.02824" zpos="-704.9661" GUID="RUuDOqP1PkWyg3Gw/+QvMg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="430.1983" ypos="67.10437" zpos="-769.098" GUID="d7JFCRvpokafh83KDxD/bw==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="433.2468" ypos="67.26344" zpos="-767.1936" GUID="CdGFA8EaHEy5SZOF1m8jFw==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="126.9641" ypos="10.83709" zpos="-218.7861" GUID="xHjydkgp1UaOFspYcQaXxg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-446.4257" ypos="25.20272" zpos="51.57943" GUID="0mXbNqHSpEGC1+ilCq7F0A==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-298.121" ypos="50.95008" zpos="-35.82179" GUID="k6o+X/TeL0G7sDjouY7tXg==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-508.0337" ypos="145.655" zpos="-155.2112" GUID="DgkwUjlIp0q2zGylJYKETQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="538.9409" ypos="77.94906" zpos="-224.9611" GUID="3nfzwZNsi0aNRyXkgARmWA==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="539.5682" ypos="78.25449" zpos="-222.5849" GUID="y0LmubdC2E+0Gw+Dn52n4Q==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="539.2905" ypos="73.39194" zpos="-230.3822" GUID="2HR8Zpb/bEeP0DAjwyMQoQ==" type="tt.ibs.cm.rm.bondoffaith" />
+        <POI MapID="1371" xpos="531.0787" ypos="73.2114" zpos="-300.08" GUID="v+97YI8adkOwkiSyxlulQg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-455.6673" ypos="129.2836" zpos="-144.8646" GUID="TSNB72/BXkmIAKMD3uO+4Q==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-513.6298" ypos="148.4822" zpos="-193.36" GUID="N24JAokz/UyFlaTkYn0JsQ==" type="tt.ibs.cm.rm.stealthmount" />
+        <POI MapID="1371" xpos="-507.4304" ypos="149.2005" zpos="-587.2695" GUID="z0U8DHfBxUOtydJT9I20Pg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-203.1707" ypos="181.3037" zpos="-643.0327" GUID="owIxNjcGakW+J33ZuNNH3A==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="374.6954" ypos="120.7439" zpos="-1177.039" GUID="3hcsRbXdikmEt47l/L3clA==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="574.9148" ypos="6.050112" zpos="-1147.677" GUID="K0su7+mmyEuEf+80UwP4Cg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="205.2638" ypos="67.27908" zpos="-367.1047" GUID="0+OaQHibykqdhUjAJ2dLOA==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="204.8416" ypos="66.63953" zpos="-370.6035" GUID="nZkfRMpf1E6U7XOJfUcfQg==" type="tt.ibs.cm.mm.griffon" info="Don't griffon superdive" />
+        <POI MapID="1371" xpos="45.85754" ypos="46.03861" zpos="-535.1371" GUID="ifr/yyLhYUyD8uf5wVEIkg==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="48.60461" ypos="45.96231" zpos="-538.5958" GUID="qWBYXS+QvEaSlKXLXoCPEA==" type="tt.ibs.cm.mm.jackal_launch" />
+        <POI MapID="1371" xpos="4.597298" ypos="35.38453" zpos="-643.5336" GUID="GVVFNVZP+UKXlawhCoWq2g==" type="tt.ibs.cm.rm.points_of_interest" info="Teleport to Fort Defiance&#xA;&#xA;If you can't -&gt; TP to Umbral Grotto and follow trail of shame." />
+        <POI MapID="1371" xpos="5.96593" ypos="35.16278" zpos="-642.7957" GUID="8Q4R0XeSNUe/KYAIAyv2Sw==" type="tt.ibs.cm.wm.wpcircle" />
+        <POI MapID="1371" xpos="-246.552" ypos="236.9893" zpos="-674.7767" GUID="UkRwi3VS5EKKD8CR1UwnkA==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="-228.4458" ypos="213.0117" zpos="-661.5857" GUID="XJXMXSjMK0+cHyhjyPFtig==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-202.8101" ypos="182.4141" zpos="-637.6501" GUID="Q6xjB1sPkkmdS+S6ZXCluw==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="-266.8812" ypos="224.5229" zpos="-608.2944" GUID="QILTv3ag7UyX3p+Ur9teMA==" type="tt.ibs.cm.mm.distogriff" />
+        <POI MapID="1371" xpos="-457.0661" ypos="128.5151" zpos="-145.7441" GUID="jWqW7jsdvUGIO0+ul1k1Bg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-456.9239" ypos="128.8822" zpos="-142.8932" GUID="FbQkRfzfk0+2K9ysoYPMnA==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="111.0482" ypos="19.65271" zpos="-426.8999" GUID="cAYZ5k/vQk+tgUkgCI4ktw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-322.9218" ypos="122.2744" zpos="991.3249" GUID="lAgdAGZexkajKnoqNmuoPg==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-436.8986" ypos="25.69162" zpos="410.7648" GUID="c4NNt2u9SUOE8e2BDUwynw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-434.7466" ypos="25.30099" zpos="408.6827" GUID="qR8trc3H20uNsTWHM+9LYg==" type="tt.ibs.cm.rm.waypoints" />
+        <POI MapID="1371" xpos="-177.5565" ypos="176.3412" zpos="836.7474" GUID="8XeE07ht/EWlWjquQS9X+Q==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-66.04917" ypos="281.3539" zpos="709.9135" GUID="yo0HMLHankKIt8ao702Rsw==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="-22.83581" ypos="296.9349" zpos="633.7125" GUID="PgMCLXuBM06a/t/BJdtuow==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-41.92545" ypos="202.6859" zpos="734.0601" GUID="HHlK71B4lESKlI5o8M+ttQ==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="181.6541" ypos="103.6758" zpos="722.1006" GUID="taY/rqd/XkeXeHZRZqueVQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="307.5833" ypos="107.5462" zpos="647.1009" GUID="QuhkiTomq0CIy92kjgwmMw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="445.6856" ypos="88.13354" zpos="254.2209" GUID="3vGt1ds35EaOBNWAiplo+w==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-39.32611" ypos="192.4019" zpos="692.1787" GUID="2qien62PREmRP/Yan/i5rg==" type="tt.ibs.cm.rm.dismount" />
+        <POI MapID="1371" xpos="-21.40801" ypos="295.3948" zpos="631.6918" GUID="j4YSml08jEqj79bstJuKTg==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="294.3462" ypos="91.85342" zpos="372.3324" GUID="O+c5Ln95xkWIYMLnkgBfew==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="29.10039" ypos="251.7878" zpos="375.5384" GUID="nPaVp5g5JEKUBk+ItEkBsw==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="28.53936" ypos="251.4041" zpos="373.1544" GUID="Hkli07Lrq0GGykHP/Oveyg==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="37.88134" ypos="69.97449" zpos="172.3943" GUID="MlGNJPMGY0yazpDoVzWi3g==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="202.256" ypos="48.30783" zpos="165.6921" GUID="Ty0T2UJDdEST2kZkWlENiA==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="348.7257" ypos="160.1727" zpos="315.5249" GUID="uP4XEWU8Wkunup7/2mFDXg==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="346.8137" ypos="159.3292" zpos="318.197" GUID="XnHeVM8QXECk47HFt1iCQA==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="244.8627" ypos="213.8705" zpos="1137.934" GUID="bL7wr+zxRkajANrhsmDkjA==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="179.4032" ypos="128.0653" zpos="1184.354" GUID="ejm6cNAqcEy2lUqA7IZ2og==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-15.76134" ypos="187.1049" zpos="1052.295" GUID="17vw0jUD0k6C/uyZAy31Zw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-75.91312" ypos="205.101" zpos="976.5198" GUID="m93su8pfwEaAEcz40opEZw==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-41.93125" ypos="203.8574" zpos="736.6956" GUID="0TOOi39yMEWQKU0SeXsErQ==" type="tt.ibs.cm.rm.1" />
+        <POI MapID="1371" xpos="-42.43358" ypos="204.0724" zpos="742.361" GUID="VIaVjX1YqUGTSm/wuUReIA==" type="tt.ibs.cm.rm.2" />
+        <POI MapID="1371" xpos="-47.72588" ypos="214.137" zpos="747.8446" GUID="NhiQ7P/8WUK32MmTggyzyg==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="-73.80597" ypos="205.9032" zpos="982.0017" GUID="t2oEzFk4ckaQV8xDP2x39g==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="-25.1856" ypos="249.5408" zpos="1032.459" GUID="R1lOye4QzECpmtLP8hpLtw==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="420.187" ypos="167.6313" zpos="932.2902" GUID="HCp1UeUsqUyHJNfsOaYDxw==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="31.83724" ypos="250.721" zpos="370.1864" GUID="S9OjKWTTA0GMnmrWNu9H1Q==" type="tt.ibs.cm.rm.2" />
+        <POI MapID="1371" xpos="25.5929" ypos="251.6495" zpos="374.0074" GUID="EJQMVIf2BEmStTo3S4NU3w==" type="tt.ibs.cm.rm.1" />
+        <POI MapID="1371" xpos="30.49063" ypos="251.2562" zpos="373.936" GUID="Is0nC5r8jUqUOzZXIB4kFw==" type="tt.ibs.cm.rm.jadewp" />
+        <POI MapID="1371" xpos="-260.897" ypos="103.0469" zpos="386.1959" GUID="WFYJU0qIgU2gQeJil7wNYQ==" type="tt.ibs.cm.rm.vistas" />
+        <POI MapID="1371" xpos="-263.3181" ypos="102.9961" zpos="384.5526" GUID="cFkvYImuZ0GMv3u3xzJeWA==" type="tt.ibs.cm.mm.griffon" />
+        <POI MapID="1371" xpos="-36.9631" ypos="181.6362" zpos="759.2396" GUID="76cuk/zu50an8mdEeK4HvQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="27.9308" ypos="247.9774" zpos="393.5845" GUID="b8b6LLFVdUG/J5xXKIDeWw==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-97.82715" ypos="151.2922" zpos="-1076.087" GUID="e5KfDPCtWUCFSeEWHTO04A==" type="tt.ibs.cm.rm.start" />
+        <POI MapID="1371" xpos="421.4251" ypos="167.1117" zpos="933.1923" GUID="AhFQNLfreE2vBSEc7U2+Ug==" type="tt.ibs.cm.rm.finish" />
+        <POI MapID="1371" xpos="182.827" ypos="103.1958" zpos="723.0167" GUID="47snZUIMoEiEkAy9jwqY7w==" type="tt.ibs.cm.wm.wpsquare" />
+        <POI MapID="1371" xpos="-55.16228" ypos="74.05495" zpos="716.0493" GUID="NU4yURP38kyA5JuLBNl7Uw==" type="tt.ibs.cm.wm.square" />
+        <POI MapID="1371" xpos="-365.4117" ypos="92.73328" zpos="-651.6043" GUID="/yEsm06eEU2DKh21mxxNfw==" type="tt.ibs.cm.wm.circle" />
+        <POI MapID="1371" xpos="-97.82715" ypos="151.2922" zpos="-1076.087" GUID="e5KfDPCtWUCFSeEWHTO04A==" type="tt.ibs.cm.rm.start" />
+        <POI MapID="1371" xpos="-47.10596" ypos="109.2414" zpos="-1024.365" GUID="7SIfsGLVa0OUcLIU9o23kQ==" type="tt.ibs.cm.wm.arrow" />
+        <POI MapID="1371" xpos="-79.92628" ypos="168.8203" zpos="-1178.842" GUID="kQl+UgV1WUiR5j2kibUrQQ==" type="tt.ibs.cm.wm.wparrow" />
+        <POI MapID="1371" xpos="-486.109" ypos="158.9064" zpos="-1134.053" GUID="zRaQa070DEm1TXYQTOPjhw==" type="tt.ibs.cm.wm.wparrow" />
+        <POI MapID="1371" xpos="354.9443" ypos="159.4509" zpos="-1014.568" GUID="f/IdEe6f+UOttdMHBkDLcw==" type="tt.ibs.cm.rm.stealthmount" />
+        <POI MapID="1371" xpos="-299.6427" ypos="51.51429" zpos="-36.93571" GUID="E2Q4HAzFPEaU6wao9WtYjg==" type="tt.ibs.cm.wm.wpsquare" />
+        <POI MapID="1371" xpos="-68.14769" ypos="210.7886" zpos="987.4432" GUID="trPWDbTmN0WfhtfNW+J+zQ==" type="tt.ibs.cm.rm.stealthmount" />
+        <POI MapID="1371" xpos="-91.5761" ypos="152.5248" zpos="-1081.759" GUID="ToyhAIPihEuWKlaFx4yXNw==" type="tt.ibs.cm.rm.hourglass" info="Vloxen Mine red -&gt; You won't be able to enter it to get PoI and Vista, but you can do a quick escort event from here to unlock it&#xA;&#xA;Map is about to be closed -&gt; You won´t be able to do north part of the map" />
+        <POI MapID="1371" xpos="-432.507" ypos="134.9355" zpos="951.8675" GUID="qw0+RG99IkemTuzdYKnBkA==" type="tt.mc.cm.mm.beetle" />
+        <POI MapID="1371" xpos="-441.2241" ypos="82.06581" zpos="710.135" GUID="lJmuOh/Apkucyd7wOql1cQ==" type="tt.mc.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-439.9308" ypos="82.30023" zpos="711.9124" GUID="K9oiG613UE6huFoX0OV6Fw==" type="tt.mc.cm.mm.skimmer" />
+        <POI MapID="1371" xpos="-42.99653" ypos="205.6499" zpos="743.144" GUID="b2M1wcyDa0K7c1ild0k+MQ==" type="tt.ibs.cm.rm.gboost" />
+        <POI MapID="1371" xpos="225.4408" ypos="213.6258" zpos="1182.694" GUID="4FQfyR3Yd02XN/mhZFdmWA==" type="tt.ibs.cm.mm.beetle" />
+        <POI MapID="1371" xpos="342.5715" ypos="172.2249" zpos="987.6738" GUID="t1dOlna68Ua+oK0aVIWeOA==" type="tt.ibs.cm.rm.bondoffaith" />
+        <POI MapID="1371" xpos="370.6102" ypos="166.7587" zpos="964.0673" GUID="Jbn1KRGAo0e/QKar+La/eA==" type="tt.ibs.cm.mm.skyscale" />
+        <POI MapID="1371" xpos="-444.0069" ypos="91.15199" zpos="740.2825" GUID="5SR3wa0lb0qMXpiJJUJ0lw==" type="tt.ibs.cm.mm.slipstreamboost" />                
 
+        <!--IBS TRAILS-->
+        <Trail GUID="YctkCQ3iukq6WM/Cd8G9Pw==" trailData="Data/TehsTrails/IBSTrails/DrizzlewoodCoast.trl" type="tt.ibs.mt.nt" />
+        <!--IBS TRAILS OF SHAME-->
+        <Trail GUID="3doprApx2Eub90NCJoE4Yw==" trailData="Data/TehsTrails/IBSTrails/DrizzlewoodCoastToS.trl" type="tt.ibs.tos" />
 
+        <!--NEW WAYPOINT MARKERS-->
+        <POI MapID="1371" xpos="-55.16228" ypos="200.05495" zpos="716.0493" GUID="LgX4ZHT+VkaAUdxCBflFpg==" type="tt.ibs.cm.nwm.wph" />
+        <POI MapID="1371" xpos="182.827" ypos="103.1958" zpos="723.0167" GUID="W8a3v1GhxU24guk64JPD8w==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint2(LgX4ZHT+VkaAUdxCBflFpg==,0TOOi39yMEWQKU0SeXsErQ==)" />
+        <POI MapID="1371" xpos="-299.6427" ypos="51.51429" zpos="-36.93571" GUID="XXCCKJI0q0eJEJHpkGA4zg==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint2(LgX4ZHT+VkaAUdxCBflFpg==,0TOOi39yMEWQKU0SeXsErQ==)" />
+        <POI MapID="1371" xpos="-365.4117" ypos="92.73328" zpos="-651.6043" GUID="vP/XoqTrhU2vgjhxYbdf7g==" type="tt.ibs.cm.nwm.wph" />
+        <POI MapID="1371" xpos="5.96593" ypos="35.16278" zpos="-642.7957" GUID="5ovGS+mV5E6OO1upVPtteg==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint2(vP/XoqTrhU2vgjhxYbdf7g==,owIxNjcGakW+J33ZuNNH3A==)" />
+        <POI MapID="1371" xpos="-47.10596" ypos="109.2414" zpos="-1024.365" GUID="0lEOebW70EuD/JHZRU8Ayw==" type="tt.ibs.cm.nwm.wph" />
+        <POI MapID="1371" xpos="-321.9371" ypos="122.1378" zpos="993.4161" GUID="AupyKgxp50mYtysaQL/mXg==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint(Is0nC5r8jUqUOzZXIB4kFw==)"/>
+        <POI MapID="1371" xpos="-79.92628" ypos="168.8203" zpos="-1178.842" GUID="KvB1jCg5UEi8O7KKiIUoyw==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint2(0lEOebW70EuD/JHZRU8Ayw==,5KfsQu562UGUsWerRDuncQ==)" />
+        <POI MapID="1371" xpos="-486.109" ypos="158.9064" zpos="-1134.053" GUID="cTtT1a2vsUiR5u3aZ8WL1Q==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint2(0lEOebW70EuD/JHZRU8Ayw==,5KfsQu562UGUsWerRDuncQ==)" />
 
 
 	<!--=======================================================================================================================================================================-->	
@@ -10726,6 +10951,21 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="U6PAZT0F60G0jwL4i6fypw==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs/DredgehauntCliffs-Segment-6.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="itpUzKFd0UyeK+WS0/ojXg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs/DredgehauntCliffs-Segment-7.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="sJevcYZ760S5AdETBvc52w==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs/DredgehauntCliffs-Segment-8.trl" />
+        <!--========= Trail Highlight Markers for DrizzlewoodCoast =========-->
+        <POI MapID="1371" xpos="-81.16102" ypos="168.8395" zpos="-1177.784" type="tt.mc.mt.th.m" GUID="T/u1Tg0fZ0Wy3YQtbW38TA==" script-trigger="Teh_HighlightTrailSegment(tWOhSFyQNUe8qsjAo8X4jg==)" />
+        <POI MapID="1371" xpos="-488.3145" ypos="158.9025" zpos="-1134.946" type="tt.mc.mt.th.m" GUID="0jl+snwsEkmyVPFDGmDwkQ==" script-trigger="Teh_HighlightTrailSegment(hBaomG+kOUS1fSY3vERZgw==)" />
+        <POI MapID="1371" xpos="4.861217" ypos="35.40086" zpos="-642.758" type="tt.mc.mt.th.m" GUID="2Yn7Y6ATik65MX8y1KaZ8Q==" script-trigger="Teh_HighlightTrailSegment(zkFJbZYaRE+YBRgmtLAqtg==)" />
+        <POI MapID="1371" xpos="-298.3182" ypos="50.78509" zpos="-35.31211" type="tt.mc.mt.th.m" GUID="+JTdF4XP+UyI3A2OlrXa7w==" script-trigger="Teh_HighlightTrailSegment(AbrqZTi5j0CtI9gBCin6FA==)" />
+        <POI MapID="1371" xpos="-321.4995" ypos="122.0883" zpos="992.486" type="tt.mc.mt.th.m" GUID="85EplUa69EyqZzrHDzT1bw==" script-trigger="Teh_HighlightTrailSegment(LgYrNOZfmECdXzUkfskS/A==)" />
+        <POI MapID="1371" xpos="182.2235" ypos="103.2076" zpos="721.9136" type="tt.mc.mt.th.m" GUID="wxYp9pYGO0GUAwTR4MjdUQ==" script-trigger="Teh_HighlightTrailSegment(E5mh7i3Ptk6E8/+hbE4qdw==)" />
+        <!--========= Highlight Trail Segments for DrizzlewoodCoast =========-->
+        <Trail type="tt.ibs.mt.th.t1" GUID="PQ+hHCpBhE2vQchdFRIObg==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-0.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="tWOhSFyQNUe8qsjAo8X4jg==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-1.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="hBaomG+kOUS1fSY3vERZgw==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-2.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="zkFJbZYaRE+YBRgmtLAqtg==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-3.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="AbrqZTi5j0CtI9gBCin6FA==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-4.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="LgYrNOZfmECdXzUkfskS/A==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-5.trl" />
+        <Trail type="tt.ibs.mt.th.t" GUID="E5mh7i3Ptk6E8/+hbE4qdw==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-6.trl" />
         <!--========= Trail Highlight Markers for DryTop =========-->
         <POI MapID="988" xpos="171.4014" ypos="16.74644" zpos="-536.8677" type="tt.mc.mt.th.m" GUID="4m7tQolxvke99kEyFQ5Gkw==" script-trigger="Teh_HighlightTrailSegment(8XPyxj5xoUC2Ebbf1IRf9g==)" />
         <POI MapID="988" xpos="9.819514" ypos="65.16823" zpos="-463.313" type="tt.mc.mt.th.m" GUID="xGOt3miBEUy1E8erhAw5ag==" script-trigger="Teh_HighlightTrailSegment(dsSP6tfB7EyhQUKc3AaUCg==)" />

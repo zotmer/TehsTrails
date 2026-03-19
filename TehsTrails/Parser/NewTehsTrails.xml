@@ -1,34 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<OverlayData>
-  <POI MapID="29" xpos="0" ypos="-1000" zpos="0" GUID="ugk0lmHCaU6lVjY1KAec2w==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="53" xpos="0" ypos="-1000" zpos="0" GUID="hCAJU52vrEGCKhkwW926Yg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="39" xpos="0" ypos="-1000" zpos="0" GUID="oxjqtO5je0Sau9OF35lpEg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="73" xpos="0" ypos="-1000" zpos="0" GUID="mMQutX51skKd8kWrk5gxqg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="28" xpos="0" ypos="-1000" zpos="0" GUID="DgqBFSNDVEKVqYaSbIf04g==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="31" xpos="0" ypos="-1000" zpos="0" GUID="KEvk03kipk+X531F5IQgsg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="27" xpos="0" ypos="-1000" zpos="0" GUID="UPmSWrQK4Eyv4fMwskmLtw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="30" xpos="0" ypos="-1000" zpos="0" GUID="7Kcxsr97Cki2cgDU4wfIiQ==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="26" xpos="0" ypos="-1000" zpos="0" GUID="tLfHcSady0Wxoy1MCj82OQ==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="51" xpos="0" ypos="-1000" zpos="0" GUID="E1y9ksGREUi/mhSTtKMA2A==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="62" xpos="0" ypos="-1000" zpos="0" GUID="xmTq1OQ7c0K1+5peQVPLwA==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="35" xpos="0" ypos="-1000" zpos="0" GUID="nYjNVZ3yoUa5CPp0AEQfuw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="65" xpos="0" ypos="-1000" zpos="0" GUID="hYStbj2ZdUensV8AHC7k6A==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="34" xpos="0" ypos="-1000" zpos="0" GUID="T74uuxEZHE+r3kL8KKu9vw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="54" xpos="0" ypos="-1000" zpos="0" GUID="eqtUNk2vDkuraV3C+WXaWQ==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="15" xpos="0" ypos="-1000" zpos="0" GUID="7JCFmqsmKEiYfqBbfw0tgw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="23" xpos="0" ypos="-1000" zpos="0" GUID="PIKS6O+ux0yGx+5PnxXyYw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="17" xpos="0" ypos="-1000" zpos="0" GUID="QnBKJrTr+UWFVkd9zf+qow==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="24" xpos="0" ypos="-1000" zpos="0" GUID="jAHq4Bk7GUKaXfoogYN78Q==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="19" xpos="0" ypos="-1000" zpos="0" GUID="pQfhYjSCfUihBpQ3anHr0Q==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="25" xpos="0" ypos="-1000" zpos="0" GUID="iCWxsDhzdE2HTj+W4DGGHg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="22" xpos="0" ypos="-1000" zpos="0" GUID="t22oLHWtWkOLEXx1fW7ZjA==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="21" xpos="0" ypos="-1000" zpos="0" GUID="uwhfr2Ye6ka9S89v/YXWEw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="32" xpos="0" ypos="-1000" zpos="0" GUID="/t/gxyB+JkyjP/9Mq9v8ew==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="20" xpos="0" ypos="-1000" zpos="0" GUID="GyuOjd7MmkuVsVNR4ijJxw==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="91" xpos="0" ypos="-1000" zpos="0" GUID="SxAyu8ksH0irKFEtonHAFQ==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="139" xpos="0" ypos="-1000" zpos="0" GUID="lAtVQt2LykuCMx/Aw8eurQ==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="326" xpos="0" ypos="-1000" zpos="0" GUID="1lVaF6CH6Eu+f2g/McxQfg==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="50" xpos="0" ypos="-1000" zpos="0" GUID="3tecWn8xhUCv8hqy7nfEdA==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="18" xpos="0" ypos="-1000" zpos="0" GUID="Z5OlzXCrVUycSBFglkU57g==" type="tt.mc.cm.skyscaleNotifier" />
-  <POI MapID="218" xpos="0" ypos="-1000" zpos="0" GUID="rdtWWytOjEG7bq9P1G5xmA==" type="tt.mc.cm.skyscaleNotifier" />
-</OverlayData>
+<Root>
+  <POI MapID="1371" xpos="-55.16228" ypos="74.05495" zpos="716.0493" GUID="LgX4ZHT+VkaAUdxCBflFpg==" type="tt.ibs.cm.nwm.wph" />
+  <POI MapID="1371" xpos="182.827" ypos="103.1958" zpos="723.0167" GUID="W8a3v1GhxU24guk64JPD8w==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint(LgX4ZHT+VkaAUdxCBflFpg==)" />
+  <POI MapID="1371" xpos="-365.4117" ypos="92.73328" zpos="-651.6043" GUID="vP/XoqTrhU2vgjhxYbdf7g==" type="tt.ibs.cm.nwm.wph" />
+  <POI MapID="1371" xpos="5.96593" ypos="35.16278" zpos="-642.7957" GUID="5ovGS+mV5E6OO1upVPtteg==" type="tt.ibs.cm.nwm.tpm" info="Teleport to Fort Defiance&#xA;&#xA;If you can't -&gt; TP to Umbral Grotto and follow trail of shame." script-focus="Teh_HighlightWaypoint(vP/XoqTrhU2vgjhxYbdf7g==)" />
+  <POI MapID="1371" xpos="-47.10596" ypos="109.2414" zpos="-1024.365" GUID="0lEOebW70EuD/JHZRU8Ayw==" type="tt.ibs.cm.nwm.wph" />
+  <POI MapID="1371" xpos="-79.92628" ypos="168.8203" zpos="-1178.842" GUID="KvB1jCg5UEi8O7KKiIUoyw==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint(0lEOebW70EuD/JHZRU8Ayw==)" />
+  <POI MapID="1371" xpos="-486.109" ypos="158.9064" zpos="-1134.053" GUID="cTtT1a2vsUiR5u3aZ8WL1Q==" type="tt.ibs.cm.nwm.tpm" script-focus="Teh_HighlightWaypoint(0lEOebW70EuD/JHZRU8Ayw==)" />
+</Root>

@@ -3,8 +3,8 @@ Teh.trailcolors = {
         ["main"] = {
             ["menuName"] = "Main Trail Color",
             ["menuDescription"] = "Change the color of all main trails",
-            ["categoryTypes"] = {"tt.mc.mt.nt", "tt.hot.mt.nt", "tt.eod.mt.nt", "tt.eodl.mt.nt", "tt.soto.mt.nt", "tt.sotol.mt.nt", 
-                                 "tt.mc.mt.th", "tt.hot.mt.th", "tt.eod.mt.th", "tt.eodl.mt.th", "tt.soto.mt.th", "tt.sotol.mt.th"},
+            ["categoryTypes"] = {"tt.mc.mt.nt", "tt.hot.mt.nt", "tt.ibs.mt.nt", "tt.eod.mt.nt", "tt.eodl.mt.nt", "tt.soto.mt.nt", "tt.sotol.mt.nt", 
+                                 "tt.mc.mt.th", "tt.hot.mt.th", "tt.ibs.mt.nt", "tt.eod.mt.th", "tt.eodl.mt.th", "tt.soto.mt.th", "tt.sotol.mt.th"},
             ["texturePath"] = "Data/TehsTrails/Markers/trailwhite.png",
             ["defaultPath"] = "Data/TehsTrails/Markers/trailwhite.png",
             ["trails"] = {},
