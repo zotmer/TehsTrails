@@ -7674,7 +7674,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="988" xpos="-216.0086" ypos="99.0157" zpos="-521.8411" GUID="HRD3SKtzfECsr3nk1PivoQ==" type="tt.mc.cm.mm.griffon" info="If you´re not a good griffon flyer, don't superdive" />
         <POI MapID="988" xpos="-292.9544" ypos="22.50066" zpos="-655.4963" GUID="TeN3rLw9SEeGljKrPAA0Zg==" type="tt.mc.cm.rm.points_of_interest" />
         <POI MapID="988" xpos="216.7402" ypos="13.35671" zpos="-281.5675" GUID="w2juU6dNsUa9oxK6XjRqXQ==" type="tt.mc.cm.wm.circle" />
-        <POI MapID="988" xpos="220.9623" ypos="13.39533" zpos="-279.3246" GUID="/0OLnqV2qEC2YamEvpCVlA==" type="tt.mc.cm.mm.raptor" />
+        <POI MapID="988" xpos="220.9623" ypos="13.39533" zpos="-279.3246" GUID="/0OLnqV2qEC2YamEvpCVlA==" type="tt.mc.cm.mm.raptor" info="Vines blocking route 1 -> Follow trail of shame" />
         <POI MapID="988" xpos="224.4081" ypos="14.82133" zpos="-283.9565" GUID="4/q/Eblkk0yuVOkAxPNprg==" type="tt.mc.cm.mm.beetle" />
         <POI MapID="988" xpos="218.9581" ypos="13.36585" zpos="-279.7503" GUID="Iq/pw+qfNkCh5O9LRXMNSg==" type="tt.mc.cm.rm.1" />
         <POI MapID="988" xpos="220.1436" ypos="13.40847" zpos="-283.2545" GUID="UStR3oQMY0KQ0558wj7QtA==" type="tt.mc.cm.rm.2" />
@@ -7690,6 +7690,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="988" xpos="-4.277229" ypos="-0.157702" zpos="-711.6603" GUID="sSdKtV3pjUWZyFIWadgkOQ==" type="tt.mc.cm.wm.wpsquare" copy="[&amp;BIgHAAA=]"/>
         <POI MapID="988" xpos="60.09407" ypos="33.24082" zpos="-287.0765" GUID="cgzQItt/z0aqfXLjnmTWbg==" type="tt.mc.cm.wm.square" />
         <POI MapID="988" xpos="-59.45568" ypos="73.51926" zpos="-326.5755" GUID="wEtTKLJOxkaOcCez8F9JvA==" type="tt.mc.cm.wm.wpcircle" copy="[&amp;BHoHAAA=]" />
+        <POI MapID="988" xpos="-157.8941" ypos="7.745774" zpos="-667.5754" GUID="5G0xsJligk6YqWPwhO+VXA==" type="tt.mc.cm.wm.wpcircle" copy="[&amp;BHoHAAA=]" />
         <POI MapID="988" xpos="399.508" ypos="23.81018" zpos="-504.2278" GUID="tiLsHPsFW0eEGWYsY9T4Sg==" type="tt.mc.cm.rm.hourglass" info="Don't run during sandstorm (XX:40 - XX:00) as you won´t see a thing." />
         <POI MapID="988" xpos="-237.1927" ypos="39.20633" zpos="-600.4973" GUID="sMjpFHDvjEaiCo12zBMTxg==" type="tt.mc.cm.rm.hourglass" info="If the gate is closed you will have to do the event here."/>
 
@@ -8280,8 +8281,8 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="988" xpos="216.7402" ypos="13.35671" zpos="-281.5675" GUID="7VBE6hnKEk2RYvXUT82jMw==" type="tt.mc.cm.nwm.wph" />
         <POI MapID="988" xpos="393.4606" ypos="18.61489" zpos="-99.8372" GUID="klnoPE32Ik6sGnKhFMX6xg==" type="tt.mc.cm.nwm.tpm" copy="[&amp;BHoHAAA=]" script-focus="Teh_HighlightWaypoint(7VBE6hnKEk2RYvXUT82jMw==)" />
         <POI MapID="988" xpos="-59.45568" ypos="73.51926" zpos="-326.5755" GUID="82RY5+bH+E+Sc4Du8HP8/A==" type="tt.mc.cm.nwm.tpm" copy="[&amp;BHoHAAA=]" script-focus="Teh_HighlightWaypoint(7VBE6hnKEk2RYvXUT82jMw==)" />
+        <POI MapID="988" xpos="-157.8941" ypos="7.745774" zpos="-667.5754" GUID="whDp6p+TJkWeVk8zbmpcgQ==" type="tt.mc.cm.nwm.tpm" copy="[&amp;BHoHAAA=]" script-focus="Teh_HighlightWaypoint(7VBE6hnKEk2RYvXUT82jMw==)" />
         <POI MapID="988" xpos="60.09407" ypos="33.24082" zpos="-287.0765" GUID="UBQT+hrs+Uqbmz0ao5+2sA==" type="tt.mc.cm.nwm.wph" />
-        <POI MapID="988" xpos="-157.8941" ypos="7.745774" zpos="-667.5754" GUID="whDp6p+TJkWeVk8zbmpcgQ==" type="tt.mc.cm.nwm.tpm" copy="[&amp;BIgHAAA=]" script-focus="Teh_HighlightWaypoint(UBQT+hrs+Uqbmz0ao5+2sA==)" />
         <POI MapID="988" xpos="-4.277229" ypos="-0.157702" zpos="-711.6603" GUID="2tRNvKBXJ02ElXmEXuwGug==" type="tt.mc.cm.nwm.tpm" copy="[&amp;BIgHAAA=]" script-focus="Teh_HighlightWaypoint(UBQT+hrs+Uqbmz0ao5+2sA==)" />
         
 		<!--========== SCRIPTING MARKERS ==========-->
@@ -8495,6 +8496,7 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/IronMarchesTrailOfShame.trl"/>
         <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/SnowdenDriftsTrailOfShame.trl"/>
         <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/CaledonForestTrailOfShame.trl"/>
+        <Trail type="tt.mc.tos" GUID="e5IfDBZwtkC6VYNhUxXhng==" trailData="Data/TehsTrails/TyriaTrails/trailsofshame/DryTopTrailOfShame.trl"/>
         
 		<!-- GUIDANCE HOOP TRAILS -->
 		<Trail type="tt.mc.gr" trailData="Data/TehsTrails/TyriaTrails/hooptrails/StraitsOfDevastationHoops.trl"/>
@@ -10967,24 +10969,22 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <Trail type="tt.ibs.mt.th.t" GUID="LgYrNOZfmECdXzUkfskS/A==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-5.trl" />
         <Trail type="tt.ibs.mt.th.t" GUID="E5mh7i3Ptk6E8/+hbE4qdw==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-6.trl" />
         <!--========= Trail Highlight Markers for DryTop =========-->
-        <POI MapID="988" xpos="171.4014" ypos="16.74644" zpos="-536.8677" type="tt.mc.mt.th.m" GUID="4m7tQolxvke99kEyFQ5Gkw==" script-trigger="Teh_HighlightTrailSegment(8XPyxj5xoUC2Ebbf1IRf9g==)" />
-        <POI MapID="988" xpos="9.819514" ypos="65.16823" zpos="-463.313" type="tt.mc.mt.th.m" GUID="xGOt3miBEUy1E8erhAw5ag==" script-trigger="Teh_HighlightTrailSegment(dsSP6tfB7EyhQUKc3AaUCg==)" />
-        <POI MapID="988" xpos="-8.498704" ypos="4.538576" zpos="-19.01834" type="tt.mc.mt.th.m" GUID="NeCDWPI6Oki++8zILkP0sQ==" script-trigger="Teh_HighlightTrailSegment(BoVtXrlZhkaF3OSSyjJkUg==)" />
-        <POI MapID="988" xpos="-340.3305" ypos="122.8275" zpos="-466.5194" type="tt.mc.mt.th.m" GUID="WsrvLNGzVUKbXi7Pux+LEg==" script-trigger="Teh_HighlightTrailSegment(iMv3703fJUaBcQxiSOgmvQ==)" />
-        <POI MapID="988" xpos="-497.6289" ypos="2.829148" zpos="-450.1353" type="tt.mc.mt.th.m" GUID="PI0lieutUU6iILZ7geF5nA==" script-trigger="Teh_HighlightTrailSegment(eEa/zFCLFU6DAt11J3bWLA==)" />
-        <POI MapID="988" xpos="-216.5934" ypos="111.1515" zpos="-193.1711" type="tt.mc.mt.th.m" GUID="o/0iXPWWrE2Lx+DJ+FG9Ag==" script-trigger="Teh_HighlightTrailSegment(+1E8YZ+icE6mA+QLp/qE9Q==)" />
-        <POI MapID="988" xpos="-156.613" ypos="7.49567" zpos="-665.424" type="tt.mc.mt.th.m" GUID="Sq++tXE/dUqwkeJe1mbZAA==" script-trigger="Teh_HighlightTrailSegment(BT/fov4DikC/TgOrG7q3Yw==)" />
-        <POI MapID="988" xpos="392.2755" ypos="19.5506" zpos="-98.92854" type="tt.mc.mt.th.m" GUID="/tBiYI/iHUKyp1DDqGiDXg==" script-trigger="Teh_HighlightTrailSegment(6TI8YuB3BUyxGGMv9k7uLg==)" />
+        <POI MapID="988" xpos="171.4014" ypos="16.74644" zpos="-536.8677" type="tt.mc.mt.th.m" GUID="THMinUZDbE+i2WBJVLKVyA==" script-trigger="Teh_HighlightTrailSegment(vG7yLCMPrk2tfNWg+We4CQ==)" />
+        <POI MapID="988" xpos="9.819514" ypos="65.16823" zpos="-463.313" type="tt.mc.mt.th.m" GUID="3o65w53PI0yOyD5v6fpTpw==" script-trigger="Teh_HighlightTrailSegment(s5t/1qUtl0GGz+tbqCskUA==)" />
+        <POI MapID="988" xpos="-8.498704" ypos="4.538576" zpos="-19.01834" type="tt.mc.mt.th.m" GUID="AKql5wEA30unT5cwqFSZig==" script-trigger="Teh_HighlightTrailSegment(fP8JnwU520Gl0rCHOg6fEg==)" />
+        <POI MapID="988" xpos="-497.6289" ypos="2.829148" zpos="-450.1353" type="tt.mc.mt.th.m" GUID="pwS/EfK6YEqnRv01XjBZrQ==" script-trigger="Teh_HighlightTrailSegment(I7goN0f/wkihXVPdf5JjKA==)" />
+        <POI MapID="988" xpos="-216.5934" ypos="111.1515" zpos="-193.1711" type="tt.mc.mt.th.m" GUID="W1l747Pk2ECTi4MlTGL4IA==" script-trigger="Teh_HighlightTrailSegment(4mYP8hlVckuJYeo6SWoxeQ==)" />
+        <POI MapID="988" xpos="-156.613" ypos="7.49567" zpos="-665.424" type="tt.mc.mt.th.m" GUID="kq8dFtoj4UebNSmnWY4nuw==" script-trigger="Teh_HighlightTrailSegment(bH45g+A5UEG5kMptRls/sg==)" />
+        <POI MapID="988" xpos="392.2755" ypos="19.5506" zpos="-98.92854" type="tt.mc.mt.th.m" GUID="UoKs2Id4DkW17HYAmiwqYg==" script-trigger="Teh_HighlightTrailSegment(aImsxJX5ck69Yu7XqcigJg==)" />
         <!--========= Highlight Trail Segments for DryTop =========-->
-        <Trail type="tt.mc.mt.th.t1" GUID="NSexAarttku0XiQflRlH0g==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-0.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="8XPyxj5xoUC2Ebbf1IRf9g==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-1.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="dsSP6tfB7EyhQUKc3AaUCg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-2.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="BoVtXrlZhkaF3OSSyjJkUg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-3.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="iMv3703fJUaBcQxiSOgmvQ==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-4.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="eEa/zFCLFU6DAt11J3bWLA==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-5.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="+1E8YZ+icE6mA+QLp/qE9Q==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-6.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="BT/fov4DikC/TgOrG7q3Yw==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-7.trl" />
-        <Trail type="tt.mc.mt.th.t" GUID="6TI8YuB3BUyxGGMv9k7uLg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-8.trl" />
+        <Trail type="tt.mc.mt.th.t1" GUID="JjwM0ICu8ECEmA9uZH49hw==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-0.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="vG7yLCMPrk2tfNWg+We4CQ==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-1.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="s5t/1qUtl0GGz+tbqCskUA==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-2.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="fP8JnwU520Gl0rCHOg6fEg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-3.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="I7goN0f/wkihXVPdf5JjKA==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-4.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="4mYP8hlVckuJYeo6SWoxeQ==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-5.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="bH45g+A5UEG5kMptRls/sg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-6.trl" />
+        <Trail type="tt.mc.mt.th.t" GUID="aImsxJX5ck69Yu7XqcigJg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DryTop/DryTop-Segment-7.trl" />
 		<!--========= Trail Highlight Markers for FieldsofRuin =========-->
 		<POI MapID="21" xpos="-418.9673" ypos="17.91231" zpos="232.9057" type="tt.mc.mt.th.m" GUID="zIqhCSZAIUyQAliPd8c2Yg==" script-trigger="Teh_HighlightTrailSegment(FOrWv0q7R0i4qUe90NwITQ==)" />
 		<POI MapID="21" xpos="556.2191" ypos="7.545981" zpos="488.9221" type="tt.mc.mt.th.m" GUID="iFWFTMFqEE6DtACzO7aVrg==" script-trigger="Teh_HighlightTrailSegment(65+XupwXfkiemdy1+sz0pA==)" />
