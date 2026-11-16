@@ -8965,9 +8965,9 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
         <POI MapID="1371" xpos="-299.6427" ypos="51.51429" zpos="-36.93571" GUID="E2Q4HAzFPEaU6wao9WtYjg==" type="tt.ibs.cm.wm.wpsquare" />
         <POI MapID="1371" xpos="-68.14769" ypos="210.7886" zpos="987.4432" GUID="trPWDbTmN0WfhtfNW+J+zQ==" type="tt.ibs.cm.rm.stealthmount" />
         <POI MapID="1371" xpos="-91.5761" ypos="152.5248" zpos="-1081.759" GUID="ToyhAIPihEuWKlaFx4yXNw==" type="tt.ibs.cm.rm.hourglass" info="Vloxen Mine red -&gt; You won't be able to enter it to get PoI and Vista, but you can do a quick escort event from here to unlock it&#xA;&#xA;Map is about to be closed -&gt; You won´t be able to do north part of the map" />
-        <POI MapID="1371" xpos="-432.507" ypos="134.9355" zpos="951.8675" GUID="qw0+RG99IkemTuzdYKnBkA==" type="tt.mc.cm.mm.beetle" />
-        <POI MapID="1371" xpos="-441.2241" ypos="82.06581" zpos="710.135" GUID="lJmuOh/Apkucyd7wOql1cQ==" type="tt.mc.cm.rm.points_of_interest" />
-        <POI MapID="1371" xpos="-439.9308" ypos="82.30023" zpos="711.9124" GUID="K9oiG613UE6huFoX0OV6Fw==" type="tt.mc.cm.mm.skimmer" />
+        <POI MapID="1371" xpos="-432.507" ypos="134.9355" zpos="951.8675" GUID="qw0+RG99IkemTuzdYKnBkA==" type="tt.ibs.cm.mm.beetle" />
+        <POI MapID="1371" xpos="-441.2241" ypos="82.06581" zpos="710.135" GUID="lJmuOh/Apkucyd7wOql1cQ==" type="tt.ibs.cm.rm.points_of_interest" />
+        <POI MapID="1371" xpos="-439.9308" ypos="82.30023" zpos="711.9124" GUID="K9oiG613UE6huFoX0OV6Fw==" type="tt.ibs.cm.mm.skimmer" />
         <POI MapID="1371" xpos="-42.99653" ypos="205.6499" zpos="743.144" GUID="b2M1wcyDa0K7c1ild0k+MQ==" type="tt.ibs.cm.rm.gboost" />
         <POI MapID="1371" xpos="225.4408" ypos="213.6258" zpos="1182.694" GUID="4FQfyR3Yd02XN/mhZFdmWA==" type="tt.ibs.cm.mm.beetle" />
         <POI MapID="1371" xpos="342.5715" ypos="172.2249" zpos="987.6738" GUID="t1dOlna68Ua+oK0aVIWeOA==" type="tt.ibs.cm.rm.bondoffaith" />
@@ -10954,12 +10954,12 @@ xmlns="https://github.com/xrandox/Gw2_Marker_Pack_DTD_XSD">
 		<Trail type="tt.mc.mt.th.t" GUID="itpUzKFd0UyeK+WS0/ojXg==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs/DredgehauntCliffs-Segment-7.trl" />
 		<Trail type="tt.mc.mt.th.t" GUID="sJevcYZ760S5AdETBvc52w==" trailData="Data/TehsTrails/TyriaTrails/completiontrails/DredgehauntCliffs/DredgehauntCliffs-Segment-8.trl" />
         <!--========= Trail Highlight Markers for DrizzlewoodCoast =========-->
-        <POI MapID="1371" xpos="-81.16102" ypos="168.8395" zpos="-1177.784" type="tt.mc.mt.th.m" GUID="T/u1Tg0fZ0Wy3YQtbW38TA==" script-trigger="Teh_HighlightTrailSegment(tWOhSFyQNUe8qsjAo8X4jg==)" />
-        <POI MapID="1371" xpos="-488.3145" ypos="158.9025" zpos="-1134.946" type="tt.mc.mt.th.m" GUID="0jl+snwsEkmyVPFDGmDwkQ==" script-trigger="Teh_HighlightTrailSegment(hBaomG+kOUS1fSY3vERZgw==)" />
-        <POI MapID="1371" xpos="4.861217" ypos="35.40086" zpos="-642.758" type="tt.mc.mt.th.m" GUID="2Yn7Y6ATik65MX8y1KaZ8Q==" script-trigger="Teh_HighlightTrailSegment(zkFJbZYaRE+YBRgmtLAqtg==)" />
-        <POI MapID="1371" xpos="-298.3182" ypos="50.78509" zpos="-35.31211" type="tt.mc.mt.th.m" GUID="+JTdF4XP+UyI3A2OlrXa7w==" script-trigger="Teh_HighlightTrailSegment(AbrqZTi5j0CtI9gBCin6FA==)" />
-        <POI MapID="1371" xpos="-321.4995" ypos="122.0883" zpos="992.486" type="tt.mc.mt.th.m" GUID="85EplUa69EyqZzrHDzT1bw==" script-trigger="Teh_HighlightTrailSegment(LgYrNOZfmECdXzUkfskS/A==)" />
-        <POI MapID="1371" xpos="182.2235" ypos="103.2076" zpos="721.9136" type="tt.mc.mt.th.m" GUID="wxYp9pYGO0GUAwTR4MjdUQ==" script-trigger="Teh_HighlightTrailSegment(E5mh7i3Ptk6E8/+hbE4qdw==)" />
+        <POI MapID="1371" xpos="-81.16102" ypos="168.8395" zpos="-1177.784" type="tt.ibs.mt.th.m" GUID="T/u1Tg0fZ0Wy3YQtbW38TA==" script-trigger="Teh_HighlightTrailSegment(tWOhSFyQNUe8qsjAo8X4jg==)" />
+        <POI MapID="1371" xpos="-488.3145" ypos="158.9025" zpos="-1134.946" type="tt.ibs.mt.th.m" GUID="0jl+snwsEkmyVPFDGmDwkQ==" script-trigger="Teh_HighlightTrailSegment(hBaomG+kOUS1fSY3vERZgw==)" />
+        <POI MapID="1371" xpos="4.861217" ypos="35.40086" zpos="-642.758" type="tt.ibs.mt.th.m" GUID="2Yn7Y6ATik65MX8y1KaZ8Q==" script-trigger="Teh_HighlightTrailSegment(zkFJbZYaRE+YBRgmtLAqtg==)" />
+        <POI MapID="1371" xpos="-298.3182" ypos="50.78509" zpos="-35.31211" type="tt.ibs.mt.th.m" GUID="+JTdF4XP+UyI3A2OlrXa7w==" script-trigger="Teh_HighlightTrailSegment(AbrqZTi5j0CtI9gBCin6FA==)" />
+        <POI MapID="1371" xpos="-321.4995" ypos="122.0883" zpos="992.486" type="tt.ibs.mt.th.m" GUID="85EplUa69EyqZzrHDzT1bw==" script-trigger="Teh_HighlightTrailSegment(LgYrNOZfmECdXzUkfskS/A==)" />
+        <POI MapID="1371" xpos="182.2235" ypos="103.2076" zpos="721.9136" type="tt.ibs.mt.th.m" GUID="wxYp9pYGO0GUAwTR4MjdUQ==" script-trigger="Teh_HighlightTrailSegment(E5mh7i3Ptk6E8/+hbE4qdw==)" />
         <!--========= Highlight Trail Segments for DrizzlewoodCoast =========-->
         <Trail type="tt.ibs.mt.th.t1" GUID="PQ+hHCpBhE2vQchdFRIObg==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-0.trl" />
         <Trail type="tt.ibs.mt.th.t" GUID="tWOhSFyQNUe8qsjAo8X4jg==" trailData="Data\TehsTrails\IBSTrails\DrizzlewoodCoast\DrizzlewoodCoast-Segment-1.trl" />
